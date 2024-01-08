@@ -179,6 +179,7 @@ export default function Page() {
 
   return (
     <>
+        <div className='bg-gray-100'>
         <div className='p-4 mt-20 m-4 flex flex-row justify-center'>
             <button className='rounded-lg p-4 mx-4 bg-gray-800 shadow-md' onClick={handleDay1Click}>
                 <p className='text-white'>21 March 2024</p>
@@ -220,6 +221,7 @@ export default function Page() {
                 </div>
                 </>
             )}
+        </div>
     </>
   )
 }
