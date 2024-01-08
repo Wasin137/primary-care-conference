@@ -162,7 +162,7 @@ const day2Room3 = {
     ]
 }
 
-export default function page() {
+export default function PageSchedule() {
     const [openScheduleDay1, setOpenScheduleDay1] = useState(true)
     const [openScheduleDay2, setOpenScheduleDay2] = useState(false)
 
