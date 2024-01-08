@@ -1,5 +1,4 @@
 import Carousel from "@/src/Carousel"
-import NavBar from "@/src/NavBar"
 import CountdownTimer from "@/src/Timer"
 import ConferenceDate from "@/src/ConferenceDate"
 import MainContent from "@/src/MainContent"
@@ -11,7 +10,6 @@ import PaperPresent from "@/src/PaperPresent"
 export default function Home() {
   return (
     <>
-      <NavBar />
       <div className="relative">
         <Carousel />
         <div className="hidden xl:block absolute inset-x-0 top-[12%] px-20">
