@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ({ roomSchedule }) {
+export default function Schedule({ roomSchedule }) {
 
   return (
     <>
