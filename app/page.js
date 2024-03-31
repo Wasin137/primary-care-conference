@@ -13,7 +13,7 @@ export default function Home() {
       <div className="relative">
         <Carousel />
         <div className="hidden xl:block absolute inset-x-0 top-[12%] px-20">
-          <CountdownTimer targetDate="2024-03-21" />
+          <CountdownTimer targetDate="2024-06-06" />
         </div>
         <div className="absolute left-5 right-5 top-20 sm:top-[10%] sm:left-12 sm:right-12 md:top-[20%] md:left-24 md:right-24 xl:left-36 xl:right-36 xl:top-[30%] xl:px-20">
         <ConferenceDate />
