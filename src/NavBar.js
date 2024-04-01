@@ -21,7 +21,8 @@ export default function NavBar() {
               {/* Navigation Links */}
               <a href="/" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
               <a href="/schedule" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Schedule</a>
-              <a href="#" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Speakers</a>
+              <a href="/speakers" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Speakers</a>
+              <a href='#' className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'>Abstracts</a>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Register</a>
             </div>
           </div>

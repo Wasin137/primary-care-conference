@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Schedule from '@/src/Schedule'
-import Speaker from '@/src/Speaker'
+import PaperPresent from '@/src/PaperPresent'
 
 const day1GrandHall = {
     room:'Grand Hall',
@@ -254,8 +254,8 @@ export default function Page() {
                     <div className='xl:col-span-8 p-4'>
                         <Schedule roomSchedule={day1GrandHall}/>
                     </div>
-                    <div className='hidden xl:block xl:col-span-4 p-4 '>
-                        <Speaker />
+                    <div className='hidden xl:block xl:col-span-4 p-4'>
+                        <PaperPresent />
                     </div>
                 </div>
                 <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 p-4'>
@@ -270,8 +270,8 @@ export default function Page() {
                     <div className='xl:col-span-8 p-4'>
                         <Schedule roomSchedule={day2GrandHall}/>
                     </div>
-                    <div className='hidden xl:block xl:col-span-4 p-4 '>
-                        <Speaker />
+                    <div className='hidden xl:block xl:col-span-4 p-4'>
+                        <PaperPresent />
                     </div>
                 </div>
                 <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 p-4'>

@@ -25,10 +25,7 @@ export default function Home() {
             </div>
             <div className="w-full xl:w-4/12 2xl:w-3/12 p-4">
               <div className="xl:flex-row">
-              <Subscription />
-              </div>
-              <div className="xl:flex-row mt-5">
-              <Speaker />
+              <Speaker photo='speakers/apisan.png' name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
               </div>
               <div className="xl:flex-row mt-5">
               <PaperPresent />

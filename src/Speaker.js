@@ -1,21 +1,53 @@
 import React from 'react'
 
-export default function Speaker() {
+export default function Speaker({index, photo ,name, position, description}) {
   return (
     <>
-        <div className='p-4 bg-white rounded-lg shadow-md'>
+    { index ?(
+        <>
+        <div className='p-4 bg-white rounded-lg shadow-md' key={index}>
             <p className='text-xl font-bold'>Speaker</p>
             <div className='flex flex-row mt-3 md:mt-5'>
-                <img className='rounded-full w-16 h-16' src="/pexels-christina-morillo-1181686.jpg" alt='speaker'/>
-                <div className='flex flex-col mx-auto'>
-                    <p className='text-base font-bold md:text-lg'>Prof.John Doe</p>
-                    <p className='text-base md:text-lg mx-auto'>University of ABC, Thailand</p>
+                { photo ?(
+                <img className='rounded-full w-16 h-16' src={photo} alt='speaker'/>
+                ):(
+                <img className='rounded-full w-16 h-16' src='speakers/blank-profile-picture-973460_1280.png' alt='speaker'/>
+                )}
+                <div className='flex flex-col mx-auto px-1'>
+                    <p className='text-base font-bold md:text-lg'>{name}</p>
+                    <p className='text-base md:text-lg mx-auto'>{position}</p>
                 </div>
             </div>
             <div className='mt-3 md:mt-5'>
-                <p className='text-base'>Sit consectetur nostrud deserunt elit est commodo aliquip dolore culpa labore. Laborum magna tempor enim consectetur id voluptate esse dolor consequat. Nulla ipsum duis do est in anim ad laborum nulla. Cupidatat tempor eiusmod cupidatat magna dolore sint elit eiusmod.</p>
+                {description.map((list, listIndex) => (
+                <li key={listIndex} className='text-base mt-1'>{list}</li>
+                ))}
             </div>
         </div>
+        </>
+    ):(
+        <>
+        <div className='p-4 bg-white rounded-lg shadow-md'>
+            <p className='text-xl font-bold'>Speaker</p>
+            <div className='flex flex-row mt-3 md:mt-5'>
+                { photo ?(
+                <img className='rounded-full w-16 h-16' src={photo} alt='speaker'/>
+                ):(
+                <img className='rounded-full w-16 h-16' src='speakers/blank-profile-picture-973460_1280.png' alt='speaker'/>
+                )}
+                <div className='flex flex-col mx-auto'>
+                    <p className='text-base font-bold md:text-lg'>{name}</p>
+                    <p className='text-base md:text-lg mx-auto'>{position}</p>
+                </div>
+            </div>
+            <div className='mt-3 md:mt-5'>
+                {description.map((list, listIndex) => (
+                <li key={listIndex} className='text-base mt-1'>{list}</li>
+                ))}
+            </div>
+        </div>
+        </>
+    )}
     </>
   )
 }
