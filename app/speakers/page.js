@@ -9,12 +9,6 @@ const speakers = [
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
     },
     {
-        photo:'speakers/veerapan.png',
-        name:'นพ.วีระพันธ์ ลีธนะกุล',
-        position:'ผู้อำนวยการเขต สปสช.เขต 12 สงขลา',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
-    },
-    {
         photo:'speakers/supatra.png',
         name:'พญ.สุพัตรา ศรีวณิชชากร',
         position:'ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
@@ -37,13 +31,13 @@ const speakers = [
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
     },
     {
-        photo:'',
+        photo:'speakers/krisana.png',
         name:'รศ.นพ.กฤษณะ สุวรรณภูมิ',
         position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['QI in Primary Care and Research competition', 'Digital Health RevolutionL: AI Integration in Primary Care for Global Challenges']
     },
     {
-        photo:'',
+        photo:'speakers/orawan.png',
         name:'พญ.อรวรรณ ตะเวทิพงศ์',
         position:'ผู้อำนวยการ รพ.เขาย้อย',
         description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
@@ -55,7 +49,7 @@ const speakers = [
         description:['DM remission']
     },
     {
-        photo:'',
+        photo:'speakers/thammasin.png',
         name:'ผศ.ดร.นพ.ธรรมสินธ์ อิงวิยะ',
         position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights']
@@ -68,7 +62,7 @@ const speakers = [
     },
     {
         photo:'',
-        name:'พญ.กีรติ อครปฏิมา',
+        name:'พญ.กีรติ อัครปฏิมา',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
@@ -115,7 +109,7 @@ const speakers = [
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
-        photo:'',
+        photo:'speakers/wasin.png',
         name:'นพ.วศิน คัมภีระ',
         position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
@@ -174,7 +168,7 @@ export default function PageSpeakers() {
   return (
     <div className='bg-gray-100'>
         <div className='p-4 mt-20 m-4 flex flex-row justify-center'>
-            <div className='mt-2 grid grid-cols-1 xl:grid-cols-3 2xl:grid-cols-4'>
+            <div className='mt-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
                 {speakers.map((speaker, index) =>(
                     <div key={index} className='m-4'>
                     <Speaker index={index} photo={speaker.photo} name={speaker.name} position={speaker.position} description={speaker.description}/>
