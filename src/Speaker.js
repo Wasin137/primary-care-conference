@@ -16,7 +16,7 @@ export default function Speaker({index, photo, name, position, description}) {
               <p className='text-sm md:text-base mx-auto'>{position}</p>
             </div>
           </div>
-          <hr class="w-48 h-1 mx-auto my-2 bg-gray-200 border-0 rounded"></hr>
+          <hr class="w-48 h-1 mx-auto mt-3 bg-gray-200 border-0 rounded"></hr>
           <div className='flex-grow'> {/* This pushes everything else down */}
             {description.map((list, listIndex) => (
               <li key={listIndex} className='text-sm md:text-base mt-1'>{list}</li>
