@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Speaker({index, photo, name, position, description}) {
     return (
-      <div className='flex flex-col h-full'> {/* Add flex and flex-col */}
-        <div className='p-4 bg-white rounded-lg shadow-md flex flex-col h-full'> {/* Ensure full height */}
+      <div className='flex flex-col h-full'> 
+        <div className='p-4 bg-white rounded-lg shadow-md flex flex-col h-full'> 
           <p className='text-xl font-bold'>Speaker</p>
           <div className='flex flex-row mt-3 md:mt-5'>
             {photo ? (
@@ -17,7 +17,7 @@ export default function Speaker({index, photo, name, position, description}) {
             </div>
           </div>
           <hr class="w-48 h-1 mx-auto mt-3 bg-gray-200 border-0 rounded"></hr>
-          <div className='flex-grow'> {/* This pushes everything else down */}
+          <div className='flex-grow'>
             {description.map((list, listIndex) => (
               <li key={listIndex} className='text-sm md:text-base mt-1'>{list}</li>
             ))}

@@ -5,20 +5,21 @@ import Schedule from '@/src/Schedule'
 import PaperPresent from '@/src/PaperPresent'
 
 const day1GrandHall = {
+    date: "2024-06-06",
     room:'Grand Hall',
     schedule:[
         {
-            time:'8.00',
+            time:'8.00-8.30',
             topic:'Registration',
             description:['ลงทะเบียนเข้างาน']
         },
         {
-            time:'8.30',
+            time:'8.30-9.00',
             topic:'Opening Ceremony',
             description:['พิธีเปิดโดย ผู้อำนวยการโรงพยาบาลหาดใหญ่']
         },
         {
-            time:'9.00',
+            time:'9.00-10.30',
             topic:'Innovative Approaches in Primary Care: Global Persepctives and Local Solutions',
             description:['นพ.อภิสรรค์ บุญประดับ ผู้อำนวยการกองปฐมภูมิ',
                 'พญ.สุพัตรา ศรีวณิชชากร ประธานราวชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
@@ -27,17 +28,17 @@ const day1GrandHall = {
                 'พญ.หทัยทิพย์ ธรรมวิริยะกุล :ผู้ดำเนินรายการ']
         },
         {
-            time:'10.30',
+            time:'10.30-11.00',
             topic:'รับประทานอาหารว่าง',
             description:[]
         },
         {
-            time:'11.00',
+            time:'11.00-12.00',
             topic:'Empowering Primary Care: The Bedrock of Resilient Health Systems',
             description:['พญ.อรวรรณ ตะเวทิพงศ์ ผู้อำนวยการ รพ.เขาย้อย จ.เพชรบุรี รองผู้อำนวยการกองปฐมภูมิ กระทรวงสาธารณสุข']
         },
         {
-            time:'12.00',
+            time:'12.00-13.00',
             topic:'รับประทานอาหารกลางวัน',
             description:[]
         }
@@ -45,20 +46,21 @@ const day1GrandHall = {
 }
 
 const day1Room1 = {
+    date: "2024-06-06",
     room:'ห้องที่ 1',
     schedule:[
         {
-            time:'13.00',
+            time:'13.00-14.30',
             topic:'Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community',
             description:['นพ.คณิน ล่องเซ่ง']
         },
         {
-            time:'14.30',
+            time:'14.30-15.00',
             topic:'รับประทานอาหารว่าง',
             description:[]
         },
         {
-            time:'15.00',
+            time:'15.00-16.00',
             topic:'Workshop: Syringe driver and Palliative devices',
             description:['พญ.นวลจันทร์ หวังศุภดิลก', 'นพ.คณิน ล่องเซ้ง', 'พว.ภาเอื้ออันน์ สิรินทรโสภณ', 'พว.สุดใจ เรืองสุข']
         }
@@ -66,20 +68,21 @@ const day1Room1 = {
 }
 
 const day1Room2 = {
+    date: "2024-06-06",
     room:'ห้องที่ 2',
     schedule:[
         {
-            time:'13.00',
+            time:'13.00-14.30',
             topic:'Workshop: DM remission I',
             description:['นพ.เอกพล พิศาล ผู้อำนวยการ รพ.บ้านตาขุน']
         },
         {
-            time:'14.30',
+            time:'14.30-15.00',
             topic:'รับประทานอาหารว่าง',
             description:[]
         },
         {
-            time:'15.00',
+            time:'15.00-16.00',
             topic:'Workshop: DM Remission II',
             description:['นพ.เอกพล พิศาล ผู้อำนวยการ รพ.บ้านตาขุน']
         }
@@ -87,20 +90,21 @@ const day1Room2 = {
 }
 
 const day1Room3 = {
+    date: "2024-06-06",
     room:'ห้องที่ 3',
     schedule:[
         {
-            time:'13.00',
+            time:'13.00-14.30',
             topic:'QI in Primary Care and Research competition I',
             description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
         },
         {
-            time:'14.30',
+            time:'14.30-15.00',
             topic:'รับประทานอาหารว่าง',
             description:[]
         },
         {
-            time:'13.00',
+            time:'15.00-16.00',
             topic:'QI in Primary Care and Research competition II',
             description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
         }
@@ -108,6 +112,7 @@ const day1Room3 = {
 }
 
 const day2GrandHall = {
+    date: "2024-06-07",
     room:'Grand Hall',
     schedule:[
         {
@@ -129,6 +134,7 @@ const day2GrandHall = {
 }
 
 const day2Room1 = {
+    date: "2024-06-07",
     room:'Room 1',
     schedule:[
         {
@@ -160,6 +166,7 @@ const day2Room1 = {
 }
 
 const day2Room2 = {
+    date: "2024-06-07",
     room:'Room 2',
     schedule:[
         {
@@ -191,6 +198,7 @@ const day2Room2 = {
 }
 
 const day2Room3 = {
+    date: "2024-06-07",
     room:'Room 3',
     schedule:[
         {
