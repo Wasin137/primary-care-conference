@@ -55,13 +55,19 @@ const speakers = [
         description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights']
     },
     {
-        photo:'',
+        photo:'speakers/krit.png',
+        name:'ดร.กฤต จารุพานิช',
+        position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
+        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
+    },
+    {
+        photo:'speakers/narongwit.png',
         name:'นพ.ณรงค์วิทย์ นาขวัญ',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Asthma Management in Primary Care: Guidelines and Best Practices']
     },
     {
-        photo:'',
+        photo:'speakers/kirati.png',
         name:'พญ.กีรติ อัครปฏิมา',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
@@ -73,19 +79,19 @@ const speakers = [
         description:['Parenting in Digital World']
     },
     {
-        photo:'',
+        photo:'speakers/phungeun.png',
         name:'ดร.พญ.ภูเงิน คงทอง',
         position:'ผู้อำนวยการศูนย์มะเร็ง รพ.หาดใหญ่-นาหม่อม',
         description:['Cancer Prevention Strategies: Empowering Health Through Awareness and Action']
     },
     {
-        photo:'',
-        name:'นพ.นพพร ส่องอำไพ',
+        photo:'speakers/nopporn.png',
+        name:'นพ.นพพร ส่งอำไพ',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
-        photo:'',
+        photo:'speakers/hathaitip.png',
         name:'พญ.หทัยทิพย์ ธรรมวิริยะกุล',
         position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
@@ -97,7 +103,7 @@ const speakers = [
         description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
-        photo:'',
+        photo:'speakers/kanin.png',
         name:'นพ.คณิน ล่องเซ่ง',
         position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community', 'Workshop: Syringe driver and Palliative devices']

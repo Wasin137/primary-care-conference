@@ -15,7 +15,7 @@ export default function Schedule({ roomSchedule }) {
   */
 
   // Simulated time for demonstration comment on production
-  const simulatedCurrentTime = new Date(2024, 5, 7, 12, 0, 0); // Y, M, D, H, m, s
+  const simulatedCurrentTime = new Date(2024, 5, 6, 13, 0, 0); // Y, M, D, H, m, s
   // Simulated time for demonstration comment on production
   const [currentTime, setCurrentTime] = useState(simulatedCurrentTime)
 
@@ -80,7 +80,7 @@ export default function Schedule({ roomSchedule }) {
         <p className='text-center text-4xl font-bold text-gray-900'>{roomSchedule.room}</p>
         <ol className="relative border-l border-gray-200">
         {roomSchedule.schedule.map((item, index) => (
-          <li key={index} className={`ml-4 mb-4 ${isCurrentTimeInRange(roomSchedule.date, item.time) ? 'bg-gray-100' : ''} ${hasSessionPassed(roomSchedule.date, item.time) ? 'text-opacity-50' : ''}`}>
+          <li key={index} className={`ml-4 mb-4 ${isCurrentTimeInRange(roomSchedule.date, item.time) ? 'bg-gray-200 rounded-lg' : ''} ${hasSessionPassed(roomSchedule.date, item.time) ? 'text-opacity-50' : ''}`}>
             <div className={`absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white ${isCurrentTimeInRange(item.time) ? 'bg-yellow-600' : 'bg-gray-500'}`}></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-500">{item.time}</time>
             <h3 className={`text-lg font-semibold ${hasSessionPassed(roomSchedule.date, item.time) ? 'text-gray-400' : 'text-gray-900'}`}>{item.topic}</h3>

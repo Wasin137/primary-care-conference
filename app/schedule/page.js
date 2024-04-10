@@ -172,7 +172,7 @@ const day2Room2 = {
         {
             time:'9.45-10.45',
             topic:'Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
-            description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'นพ.วศิน คัมภีระ']
+            description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
         },
         {
             time:'10.45-11.00',
