@@ -1,5 +1,8 @@
+'use client'
 import React from 'react'
 import Speaker from '@/src/Speaker'
+import ModalSpeaker from '@/src/CVModal'
+import { useState } from 'react'
 
 const speakers = [
     {
@@ -34,7 +37,7 @@ const speakers = [
         photo:'speakers/krisana.png',
         name:'รศ.นพ.กฤษณะ สุวรรณภูมิ',
         position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
-        description:['QI in Primary Care and Research competition', 'Digital Health RevolutionL: AI Integration in Primary Care for Global Challenges']
+        description:['QI in Primary Care and Research competition', 'Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
     },
     {
         photo:'speakers/orawan.png',
@@ -46,7 +49,37 @@ const speakers = [
         photo:'',
         name:'นพ.เอกพล พิศาล',
         position:'ผู้อำนวยการ รพ.บ้านตาขุน',
-        description:['DM remission']
+        description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
+    },
+    {
+        photo:'',
+        name:'พญ.ชนัดดา สมคง',
+        position:' ',
+        description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
+    },
+    {
+        photo:'',
+        name:'พว.ชาลิณี บุญช่วยรอด',
+        position:'พยาบาลวิชาชีพ รพ.บ้านตาขุน',
+        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
+    },
+    {
+        photo:'',
+        name:'คุณหทัยชนก เดชะ',
+        position:' ',
+        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
+    },
+    {
+        photo:'speakers/kraisorn.png',
+        name:'นพ.ไกรสร โตทับเที่ยง',
+        position:'ผู้อำนวยการกองวัณโรค กรมควบคุมโรค',
+        description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
+    },
+    {
+        photo:'',
+        name:'นพ.โภคิน ศักรินทร์กุล',
+        position:'หัวหน้ากลุ่มภารกิจด้านการบริการปฐมภูมิ รพ.ลำพูน',
+        description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
     },
     {
         photo:'speakers/thammasin.png',
@@ -58,17 +91,18 @@ const speakers = [
         photo:'speakers/krit.png',
         name:'ดร.กฤต จารุพานิช',
         position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
-        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
+        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
+        degree:["B.S. in Physics(1's Class honor)", 'M.S. in Material Science and Engineering', 'M.S. in Biomedical Engineering', 'Ph.D. in Biomedical Engineering']
     },
     {
         photo:'speakers/narongwit.png',
-        name:'นพ.ณรงค์วิทย์ นาขวัญ',
+        name:'รศ.นพ.ณรงค์วิทย์ นาขวัญ',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Asthma Management in Primary Care: Guidelines and Best Practices']
     },
     {
         photo:'speakers/kirati.png',
-        name:'พญ.กีรติ อัครปฏิมา',
+        name:'ผศ.พญ.กีรติ อัครปฏิมา',
         position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
@@ -118,7 +152,8 @@ const speakers = [
         photo:'speakers/wasin.png',
         name:'นพ.วศิน คัมภีระ',
         position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
-        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
+        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
+        degree:['Thai board of Family Medicine', 'B.S. in Medical Doctor']
     },
     {
         photo:'',
@@ -168,20 +203,35 @@ const speakers = [
         position:'',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
+    {
+        photo:'',
+        name:'คุณมณีวรรณ ทองอ่อน',
+        position:'',
+        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+    },
 ]
 
 export default function PageSpeakers() {
-  return (
-    <div className='bg-gray-100'>
-        <div className='p-4 mt-20 m-4 flex flex-row justify-center'>
-            <div className='mt-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
-                {speakers.map((speaker, index) =>(
-                    <div key={index} className='m-4'>
-                    <Speaker index={index} photo={speaker.photo} name={speaker.name} position={speaker.position} description={speaker.description}/>
-                    </div>
-                ))}
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedSpeaker, setSelectedSpeaker] = useState(null);
+
+    const handleOpenModal = (speaker) => {
+        setSelectedSpeaker(speaker);
+        setIsModalOpen(true);
+    };
+
+    return (
+        <div className='bg-gray-100'>
+            <div className='p-4 mt-20 m-4 flex flex-row justify-center'>
+                <div className='mt-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
+                    {speakers.map((speaker, index) =>(
+                        <div key={index} className='m-4' onClick={() => handleOpenModal(speaker)}>
+                        <Speaker index={index} photo={speaker.photo} name={speaker.name} position={speaker.position} description={speaker.description}/>
+                        </div>
+                    ))}
+                </div>
             </div>
+            <ModalSpeaker isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} speaker={selectedSpeaker || {}} />
         </div>
-    </div>
-  )
+    );
 }

@@ -21,11 +21,10 @@ const day1GrandHall = {
         {
             time:'9.00-10.30',
             topic:'Innovative Approaches in Primary Care: Global Persepctives and Local Solutions',
-            description:['นพ.อภิสรรค์ บุญประดับ ผู้อำนวยการกองปฐมภูมิ',
-                'พญ.สุพัตรา ศรีวณิชชากร ประธานราวชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
-                'พญ.จัสมี โนะ แพทย์เวชศาสตร์ครอบครัว โรงพยาบาลระแงะ จ.ปัตตานี',
-                'คุณชาคริต โภชะเรือง มูลนิธิชุมชนสงขลา และประธานสมัชชาสุขภาพจังหวัดสงขลา',
-                'พญ.หทัยทิพย์ ธรรมวิริยะกุล :ผู้ดำเนินรายการ']
+            description:['นพ.อภิสรรค์ บุญประดับ',
+                'พญ.สุพัตรา ศรีวณิชชากร',
+                'พญ.จัสมี โนะ',
+                'คุณชาคริต โภชะเรือง']
         },
         {
             time:'10.30-11.00',
@@ -35,11 +34,11 @@ const day1GrandHall = {
         {
             time:'11.00-12.00',
             topic:'Empowering Primary Care: The Bedrock of Resilient Health Systems',
-            description:['พญ.อรวรรณ ตะเวทิพงศ์ ผู้อำนวยการ รพ.เขาย้อย จ.เพชรบุรี รองผู้อำนวยการกองปฐมภูมิ กระทรวงสาธารณสุข']
+            description:['พญ.อรวรรณ ตะเวทิพงศ์']
         },
         {
             time:'12.00-13.00',
-            topic:'รับประทานอาหารกลางวัน',
+            topic:'Lunch symposium',
             description:[]
         }
     ]
@@ -47,7 +46,29 @@ const day1GrandHall = {
 
 const day1Room1 = {
     date: "2024-06-06",
-    room:'ห้องที่ 1',
+    room:'Main Room 1',
+    schedule:[        
+        {
+            time:'13.00-14.30',
+            topic:'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care',
+            description:['พว.ชาลิณี บุญช่วยรอด', 'คุณหทัยชนก เดชะ']
+        },
+        {
+            time:'14.30-15.00',
+            topic:'รับประทานอาหารว่าง',
+            description:[]
+        },
+        {
+            time:'15.00-16.30',
+            topic:'Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”',
+            description:['นพ.เอกพล พิศาล', 'พญ.ชนัดดา สมคง', 'พว.ชาลิณี บุญช่วยรอด']
+        }
+    ]
+}
+
+const day1Room2 = {
+    date: "2024-06-06",
+    room:'Room 2',
     schedule:[
         {
             time:'13.00-14.30',
@@ -60,43 +81,21 @@ const day1Room1 = {
             description:[]
         },
         {
-            time:'15.00-16.00',
+            time:'15.00-16.30',
             topic:'Workshop: Syringe driver and Palliative devices',
             description:['พญ.นวลจันทร์ หวังศุภดิลก', 'นพ.คณิน ล่องเซ้ง', 'พว.ภาเอื้ออันน์ สิรินทรโสภณ', 'พว.สุดใจ เรืองสุข']
         }
     ]
 }
 
-const day1Room2 = {
-    date: "2024-06-06",
-    room:'ห้องที่ 2',
-    schedule:[
-        {
-            time:'13.00-14.30',
-            topic:'Workshop: DM remission I',
-            description:['นพ.เอกพล พิศาล ผู้อำนวยการ รพ.บ้านตาขุน']
-        },
-        {
-            time:'14.30-15.00',
-            topic:'รับประทานอาหารว่าง',
-            description:[]
-        },
-        {
-            time:'15.00-16.00',
-            topic:'Workshop: DM Remission II',
-            description:['นพ.เอกพล พิศาล ผู้อำนวยการ รพ.บ้านตาขุน']
-        }
-    ]
-}
-
 const day1Room3 = {
     date: "2024-06-06",
-    room:'ห้องที่ 3',
+    room:'Room 3',
     schedule:[
         {
             time:'13.00-14.30',
-            topic:'QI in Primary Care and Research competition I',
-            description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
+            topic:'Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions',
+            description:['นพ.ไกรสร โตทับเที่ยง', 'นพ.โภคิน ศักรินทร์กุล']
         },
         {
             time:'14.30-15.00',
@@ -104,8 +103,8 @@ const day1Room3 = {
             description:[]
         },
         {
-            time:'15.00-16.00',
-            topic:'QI in Primary Care and Research competition II',
+            time:'15.00-16.30',
+            topic:'Discussion: Quality Improvement in Primary Care and Research competition',
             description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
         }
     ]
@@ -135,12 +134,12 @@ const day2GrandHall = {
 
 const day2Room1 = {
     date: "2024-06-07",
-    room:'Room 1',
+    room:'Main Room 1',
     schedule:[
         {
             time:'9.45-10.45',
             topic:'Asthma Management in Primary Care: Guidelines and Best Practices',
-            description:['นพ.ณรงค์วิทย์ นาขวัญ']
+            description:['รศ.นพ.ณรงค์วิทย์ นาขวัญ']
         },
         {
             time:'10.45-11.00',
@@ -150,11 +149,11 @@ const day2Room1 = {
         {
             time:'11.00-12.00',
             topic:'Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies',
-            description:['พญ.กีรติ อครปฏิมา', 'นพ.ทรงเกียรติ กาญจนแก้ว']
+            description:['ผศ.พญ.กีรติ อครปฏิมา', 'นพ.ทรงเกียรติ กาญจนแก้ว']
         },
         {
             time:'12.00-13.00',
-            topic:'รับประทานอาหารกลางวัน',
+            topic:'Lunch symposium',
             description:[]
         },
         {
@@ -171,7 +170,7 @@ const day2Room2 = {
     schedule:[
         {
             time:'9.45-10.45',
-            topic:'Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
+            topic:'Discussion: Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
             description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
         },
         {
@@ -181,18 +180,18 @@ const day2Room2 = {
         },
         {
             time:'11.00-12.00',
-            topic:'Parenting in Digital World',
+            topic:'Discussion: Parenting in Digital World',
             description:['พญ.ธัญลักษณ์ วันเลี่ยง', 'พญ.หทัยทิพย์ ธรรมวิริยะกุล']
         },
         {
             time:'12.00-13.00',
-            topic:'รับประทานอาหารกลางวัน',
+            topic:'Lunch symposium',
             description:[]
         },
         {
             time:'13.00-14.00',
-            topic:'The Hatyai Model: A Paradigm for Wellness Centers',
-            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์']
+            topic:'Discussion: The Hatyai Model: A Paradigm for Wellness Centers',
+            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์', 'คุณมณีวรรณ ทองอ่อน']
         }
     ]
 }
@@ -203,7 +202,7 @@ const day2Room3 = {
     schedule:[
         {
             time:'9.45-10.45',
-            topic:'Unveiling the Health Implacts of Global Warming: Evidence and Insights',
+            topic:'Discussion: Unveiling the Health Implacts of Global Warming: Evidence and Insights',
             description:['ผศ.ดร.นพ.ธรรมสินธ์ อิงวิยะ', 'พญ.หทัยทิพย์ ธรรมวิริยะกุล']
         },
         {
@@ -218,7 +217,7 @@ const day2Room3 = {
         },
         {
             time:'12.00-13.00',
-            topic:'รับประทานอาหารกลางวัน',
+            topic:'Lunch symposium',
             description:[]
         },
         {

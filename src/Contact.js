@@ -23,13 +23,13 @@ export default function Contact() {
             <p className='text-gray-800 text-lg font-bold text-start mb-2'>Contact Us</p>
             <p className='text-gray-800 text-base text-start'>กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่</p>
             <p className='text-gray-800 text-base text-start'>182 ถ.รัถการ ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา 90110</p>
-            <p className='text-gray-800 text-base text-start'>โทรศัพท์ 074-273100 ต่อ 1234,1235</p>
+            <p className='text-gray-800 text-base text-start'>โทรศัพท์ 074-273100 ต่อ 5510</p>
           </div>
           <div className='my-2'>
             <p className='text-gray-800 text-lg font-bold text-start mb-2'>Sponsorship</p>
             <p className='text-gray-800 text-base text-start'>กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่</p>
             <p className='text-gray-800 text-base text-start'>182 ถ.รัถการ ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา 90110</p>
-            <p className='text-gray-800 text-base text-start'>โทรศัพท์ 074-273100 ต่อ 1234,1235</p>
+            <p className='text-gray-800 text-base text-start'>โทรศัพท์ 074-273100 ต่อ 5510</p>
           </div>
         </div>
         <div className='xl:col-span-2 py-2 px-4'>
