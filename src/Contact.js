@@ -12,9 +12,9 @@ export default function Contact() {
           <p className='text-black-text-base font-bold'>Call for Abstracts Open</p>
           <p className='text-gray-700 text-base'>15 April 2024</p>
           <p className='text-black-text-base font-bold'>Abstracts Submission Deadline</p>
-          <p className='text-gray-700 text-base'>15 May 2024</p>
+          <p className='text-gray-700 text-base'>20 May 2024</p>
           <p className='text-black-text-base font-bold'>Abstracts Result Notification</p>
-          <p className='text-gray-700 text-base'>25 May 2024</p>
+          <p className='text-gray-700 text-base'>27 May 2024</p>
           <p className='text-black-text-base font-bold'>Conference Dates</p>
           <p className='text-gray-700 text-base'>6 - 7 June 2024</p>
         </div>

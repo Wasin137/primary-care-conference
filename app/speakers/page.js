@@ -19,7 +19,7 @@ const speakers = [
     },
     {
         name:'พญ.จัสมี โนะ',
-        position:'โรงพยาบาลระแงะ จ.ปัตตานี',
+        position:'นายแพทย์ชำนาญการพิเศษ รพ.ระแงะ',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'QI in Primary Care and Research']
     },
     {
@@ -54,7 +54,7 @@ const speakers = [
     {
         photo:'',
         name:'พญ.ชนัดดา สมคง',
-        position:' ',
+        position:'นายแพทย์ชำนาญการ รพ.กาญจนดิษฐ์',
         description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
     },
     {
@@ -66,7 +66,7 @@ const speakers = [
     {
         photo:'',
         name:'คุณหทัยชนก เดชะ',
-        position:' ',
+        position:'ผู้อำนวยการ รพ.สต.เขาพัง',
         description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
     },
     {
@@ -84,7 +84,7 @@ const speakers = [
     {
         photo:'speakers/thammasin.png',
         name:'ผศ.ดร.นพ.ธรรมสินธ์ อิงวิยะ',
-        position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
+        position:'ผู้ช่วยคณบดีฝ่ายวิเคราะห์ข้อมูล และนวัตกรรมดิจิตอล คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights']
     },
     {
@@ -97,19 +97,19 @@ const speakers = [
     {
         photo:'speakers/narongwit.png',
         name:'รศ.นพ.ณรงค์วิทย์ นาขวัญ',
-        position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Asthma Management in Primary Care: Guidelines and Best Practices']
     },
     {
         photo:'speakers/kirati.png',
         name:'ผศ.พญ.กีรติ อัครปฏิมา',
-        position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
     {
         photo:'',
         name:'พญ.ธัญลักษณ์ วั่นเลี่ยง',
-        position:'กลุ่มงานจิตเวช โรงพยาบาลหาดใหญ่',
+        position:'หัวหน้ากลุ่มงานจิตเวชและยาเสพติด โรงพยาบาลหาดใหญ่',
         description:['Parenting in Digital World']
     },
     {
@@ -121,80 +121,80 @@ const speakers = [
     {
         photo:'speakers/nopporn.png',
         name:'นพ.นพพร ส่งอำไพ',
-        position:'กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม รพ.หาดใหญ่',
         description:['Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
         photo:'speakers/hathaitip.png',
         name:'พญ.หทัยทิพย์ ธรรมวิริยะกุล',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
     },
     {
         photo:'',
         name:'ดร.นพ.ศรวัส แสงแก้ว',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
         photo:'speakers/kanin.png',
         name:'นพ.คณิน ล่องเซ่ง',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community', 'Workshop: Syringe driver and Palliative devices']
     },
     {
         photo:'',
         name:'พญ.นวลจันทร์ หวังศุภดิลก',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
         photo:'speakers/wasin.png',
         name:'นพ.วศิน คัมภีระ',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
         degree:['Thai board of Family Medicine', 'B.S. in Medical Doctor']
     },
     {
         photo:'',
         name:'นพ.ทรงเกียรติ กาญจนแก้ว',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
     {
         photo:'',
         name:'พญ.นิศาชล ทองคำ',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
     },
     {
         photo:'',
         name:'พญ.นิศจรา กุณาฑลต์',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {
         photo:'',
         name:'ภก.อดิศักดิ์ เมฆตรง',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'เภสัชกรชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Kratom: Understanding the Facts and Implications']
     },
     {
         photo:'',
         name:'พว.ภาเอื้ออันน์ สิรินทรโสภณ',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'พยาบาลวิชาชีพชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
         photo:'',
         name:'พว.สุดใจ เรืองสุข',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'พยาบาลวิชาชีพชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
         photo:'',
         name:'พว.อมรรัตน์ ลิ่มเฮง',
-        position:'กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
+        position:'หัวหน้ากลุ่มงานการพยาบาลชุมชน โรงพยาบาลหาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {
@@ -206,7 +206,7 @@ const speakers = [
     {
         photo:'',
         name:'คุณมณีวรรณ ทองอ่อน',
-        position:'',
+        position:'หัวหน้ากลุ่มงานโภชนศาสตร์ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
 ]

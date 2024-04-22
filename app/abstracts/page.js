@@ -13,14 +13,19 @@ export default function AbstractsPage() {
         <div className='py-4 md:px-10 mt-20 m-4'>
             <div className='grid grid-cols-1 md:grid-cols-[auto,1fr]'>
                 <div>
+                    <div className='p-4 bg-white rounded-lg shadow-md mb-4'>
+                        <p className='font-bold text-3xl mb-4'>Submission</p>
+                        <p className='text-black text-base font-bold'>Abstract submission via Google form</p>
+                        <a href='#'><span className='text-gray-500 text-xl font-bold hover:underline'>Click Here</span></a>
+                    </div>
                     <div className='p-4 bg-white rounded-lg shadow-md'>
                         <p className='font-bold text-3xl mb-4'>Important Dates</p>
                         <p className='text-black-text-base font-bold'>Call for Abstracts Open</p>
                         <p className='text-gray-700 text-base'>15 April 2024</p>
                         <p className='text-black-text-base font-bold'>Abstracts Submission Deadline</p>
-                        <p className='text-gray-700 text-base'>15 May 2024</p>
+                        <p className='text-gray-700 text-base'>20 May 2024</p>
                         <p className='text-black-text-base font-bold'>Abstracts Result Notification</p>
-                        <p className='text-gray-700 text-base'>25 May 2024</p>
+                        <p className='text-gray-700 text-base'>27 May 2024</p>
                         <p className='text-black-text-base font-bold'>Conference Dates</p>
                         <p className='text-gray-700 text-base'>6 - 7 June 2024</p>
                     </div>

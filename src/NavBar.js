@@ -19,7 +19,7 @@ export default function NavBar() {
               <a href="/schedule" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Schedule</a>
               <a href="/speakers" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Speakers</a>
               <a href='/abstracts' className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'>Abstracts</a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Register</a>
+              <a href="/registration" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Registration</a>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function NavBar() {
             <a href="/schedule" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Schedule</a>
             <a href="/speakers" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Speakers</a>
             <a href="/abstracts" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Abstracts</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Register</a>
+            <a href="/registration" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Registration</a>
           </div>
         </div>
       </div>
