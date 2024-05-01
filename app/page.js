@@ -27,9 +27,6 @@ export default function Home() {
               <div className="xl:flex-row">
               <Speaker photo='speakers/apisan.png' name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
               </div>
-              <div className="xl:flex-row mt-5">
-              <PaperPresent />
-              </div>
             </div>
           </div>
           <div className="p-4">

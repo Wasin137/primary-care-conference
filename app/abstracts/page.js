@@ -14,9 +14,9 @@ export default function AbstractsPage() {
             <div className='grid grid-cols-1 md:grid-cols-[auto,1fr]'>
                 <div>
                     <div className='p-4 bg-white rounded-lg shadow-md mb-4'>
-                        <p className='font-bold text-3xl mb-4'>Submission</p>
-                        <p className='text-black text-base font-bold'>Abstract submission via Google form</p>
-                        <a href='#'><span className='text-gray-500 text-xl font-bold hover:underline'>Click Here</span></a>
+                        <p className='font-bold text-3xl mb-4'>ส่งบทความ</p>
+                        <p className='text-black text-base font-bold'>ส่งบทความผ่าน Google form</p>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfRvES9UdtbMsZJig0bQQrZ2GmPvXYqf8J-IEB_uYBJFOKseQ/viewform?pli=1'><span className='text-gray-500 text-xl font-bold hover:underline'>Click Here</span></a>
                     </div>
                     <div className='p-4 bg-white rounded-lg shadow-md'>
                         <p className='font-bold text-3xl mb-4'>Important Dates</p>
@@ -193,7 +193,7 @@ export default function AbstractsPage() {
                     </div>
                     <div className='p-4 bg-white rounded-lg shadow-md mt-5'>
                         <p className='font-bold text-3xl mb-4'>Contact</p>
-                        <p className='text-base'>If you have any questions regarding your submitted abstract or the abstract submission process, do not hesitate to reach out to: <a href='#' className='font-bold underline'>thisismyemail@gmail.com</a></p>
+                        <p className='text-base'>If you have any questions regarding your submitted abstract or the abstract submission process, do not hesitate to reach out to: <a href='#' className='font-bold underline'>pcaric23@gmail.com</a></p>
                         <p className='text-base'>If your inquiry is regarding a particular draft or submission, please include the abstract ID in your email.</p>
                     </div>
                 </div>

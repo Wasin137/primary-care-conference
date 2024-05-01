@@ -162,7 +162,7 @@ const speakers = [
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
     {
-        photo:'',
+        photo:'speakers/nisachon.jpg',
         name:'พญ.นิศาชล ทองคำ',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
@@ -200,7 +200,7 @@ const speakers = [
     {
         photo:'',
         name:'คุณจุฑานันท์ พรหมอินทร์',
-        position:'',
+        position:'นักกายภาพบำบัดปฏิบัติการ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {

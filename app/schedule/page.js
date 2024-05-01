@@ -260,9 +260,6 @@ export default function Page() {
                     <div className='xl:col-span-8 p-4'>
                         <Schedule roomSchedule={day1GrandHall}/>
                     </div>
-                    <div className='hidden xl:block xl:col-span-4 p-4'>
-                        <PaperPresent />
-                    </div>
                 </div>
                 <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 p-4'>
                     <Schedule roomSchedule={day1Room1} />
@@ -275,9 +272,6 @@ export default function Page() {
                 <div className='grid grid-cols-1 xl:grid-cols-12 gap-4'>
                     <div className='xl:col-span-8 p-4'>
                         <Schedule roomSchedule={day2GrandHall}/>
-                    </div>
-                    <div className='hidden xl:block xl:col-span-4 p-4'>
-                        <PaperPresent />
                     </div>
                 </div>
                 <div className='grid grid-cols-1 xl:grid-cols-3 gap-4 p-4'>

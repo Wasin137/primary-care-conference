@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Schedule({ roomSchedule }) {
-  /* Get time function uncomment on production
+  // Get time function uncomment on production
   const [currentTime, setCurrentTime] = useState(new Date(new Date().getTime() + (7 * 60 * 60 * 1000)))
 
   useEffect(() => {
@@ -12,12 +12,11 @@ export default function Schedule({ roomSchedule }) {
     }, 60000); // 60 seconds
     return () => clearInterval(timer)
   }, [])
-  */
 
-  // Simulated time for demonstration comment on production
-  const simulatedCurrentTime = new Date(2024, 5, 6, 13, 0, 0); // Y, M, D, H, m, s
-  // Simulated time for demonstration comment on production
-  const [currentTime, setCurrentTime] = useState(simulatedCurrentTime)
+  // // Simulated time for demonstration comment on production
+  // const simulatedCurrentTime = new Date(2024, 5, 6, 13, 0, 0); // Y, M, D, H, m, s
+  // // Simulated time for demonstration comment on production
+  // const [currentTime, setCurrentTime] = useState(simulatedCurrentTime)
 
 
   useEffect(() => {

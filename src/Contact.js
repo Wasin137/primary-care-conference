@@ -33,13 +33,28 @@ export default function Contact() {
           </div>
         </div>
         <div className='xl:col-span-2 py-2 px-4'>
+        <p className='text-gray-800 text-lg font-bold text-start mb-2'>Support By</p>
           <div className='xl:grid grid-cols-2'>
             <div className='xl:col-span-1'>
-              <p className='text-gray-800 text-lg font-bold text-start mb-2'>Support By</p>
-              <img className='p-2 m-2' src='/sponsors/laguna.png' alt='Laguna Grand Hotel & Spa Songkhla'/>
+              <img className='p-2 m-2' src='/sponsors/rcfpt_logo.png' alt='The Royal College of Family Physicians of Thailand'/>
+            </div>
+            <div className='xl:col-span-1'>
+            <img className='p-2 m-2' src='/sponsors/fmac_logo.png' alt='Family Medicine Academic Center'/>
             </div>
             <div className='xl:col-span-1'>
             <img className='p-2 m-2' src='/sponsors/hdy_logo.png' alt='Hatyai Hospital'/>
+            </div>
+            <div className='xl:col-span-1'>
+            <img className='p-2 m-2' src='/sponsors/pcaric_logo.png' alt='Primary Care Academic Research and Innovation Center'/>
+            </div>
+            <div className='xl:col-span-1'>
+            <img className='p-2 m-2' src='/sponsors/sss_logo.png' alt='sss'/>
+            </div>
+            <div className='xl:col-span-1'>
+            <img className='p-2 m-2' src='/sponsors/saaf_logo.png' alt='มูลนิธิศูนย์วิชาการสารเสพติด'/>
+            </div>
+            <div className='xl:col-span-1'>
+            <img className='p-2 m-2' src='/sponsors/berlin_logo.png' alt='Berlin'/>
             </div>
           </div>
         </div>
