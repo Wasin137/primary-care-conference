@@ -4,15 +4,33 @@ import Speaker from '@/src/Speaker'
 import ModalSpeaker from '@/src/CVModal'
 import { useState } from 'react'
 
+//Import Speaker's photo individually
+import ApisanPhoto from '/public/speakers/apisan.png'
+import SupatraPhoto from '/public/speakers/supatra.png'
+import VeerasakPhoto from '/public/speakers/veerasak.png'
+import KrisanaPhoto from '/public/speakers/krisana.png'
+import OrawanPhoto from '/public/speakers/orawan.png'
+import KraisornPhoto from '/public/speakers/kraisorn.png'
+import ThammasinPhoto from '/public/speakers/thammasin.png'
+import KritPhoto from '/public/speakers/krit.png'
+import NarongwitPhoto from '/public/speakers/narongwit.png'
+import KiratiPhoto from '/public/speakers/kirati.png'
+import PhungeunPhoto from '/public/speakers/phungeun.png'
+import NoppornPhoto from '/public/speakers/nopporn.png'
+import HathaitipPhoto from '/public/speakers/hathaitip.png'
+import KaninPhoto from '/public/speakers/kanin.png'
+import WasinPhoto from '/public/speakers/wasin.png'
+import NisachonPhoto from '/public/speakers/nisachon.jpg'
+
 const speakers = [
     {
-        photo:'/speakers/apisan.png',
+        photo: ApisanPhoto,
         name:'นพ.อภิสรรค์ บุญประดับ',
         position:'ผู้อำนวยการ กองปฐมภูมิ',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
     },
     {
-        photo:'/speakers/supatra.png',
+        photo: SupatraPhoto,
         name:'พญ.สุพัตรา ศรีวณิชชากร',
         position:'ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
@@ -28,19 +46,19 @@ const speakers = [
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
     },
     {
-        photo:'/speakers/veerasak.png',
+        photo:VeerasakPhoto,
         name:'ศ.นพ.วีรศักดิ์ เมืองไพศาล',
         position:'อาจารย์คณะแพทยศาสตร์ศิริราชพยาบาล',
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
     },
     {
-        photo:'/speakers/krisana.png',
+        photo: KrisanaPhoto,
         name:'รศ.นพ.กฤษณะ สุวรรณภูมิ',
         position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['QI in Primary Care and Research competition', 'Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
     },
     {
-        photo:'/speakers/orawan.png',
+        photo: OrawanPhoto,
         name:'พญ.อรวรรณ ตะเวทิพงศ์',
         position:'ผู้อำนวยการ รพ.เขาย้อย',
         description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
@@ -70,7 +88,7 @@ const speakers = [
         description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
     },
     {
-        photo:'/speakers/kraisorn.png',
+        photo: KraisornPhoto,
         name:'นพ.ไกรสร โตทับเที่ยง',
         position:'ผู้อำนวยการกองวัณโรค กรมควบคุมโรค',
         description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
@@ -82,26 +100,26 @@ const speakers = [
         description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
     },
     {
-        photo:'/speakers/thammasin.png',
+        photo: ThammasinPhoto,
         name:'ผศ.ดร.นพ.ธรรมสินธ์ อิงวิยะ',
         position:'ผู้ช่วยคณบดีฝ่ายวิเคราะห์ข้อมูล และนวัตกรรมดิจิตอล คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights']
     },
     {
-        photo:'/speakers/krit.png',
+        photo: KritPhoto,
         name:'ดร.กฤต จารุพานิช',
         position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
         degree:["B.S. in Physics(1's Class honor)", 'M.S. in Material Science and Engineering', 'M.S. in Biomedical Engineering', 'Ph.D. in Biomedical Engineering']
     },
     {
-        photo:'/speakers/narongwit.png',
+        photo: NarongwitPhoto,
         name:'รศ.นพ.ณรงค์วิทย์ นาขวัญ',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Asthma Management in Primary Care: Guidelines and Best Practices']
     },
     {
-        photo:'/speakers/kirati.png',
+        photo: KiratiPhoto,
         name:'ผศ.พญ.กีรติ อัครปฏิมา',
         position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
@@ -113,19 +131,19 @@ const speakers = [
         description:['Parenting in Digital World']
     },
     {
-        photo:'/speakers/phungeun.png',
+        photo: PhungeunPhoto,
         name:'ดร.พญ.ภูเงิน คงทอง',
         position:'ผู้อำนวยการศูนย์มะเร็ง รพ.หาดใหญ่-นาหม่อม',
         description:['Cancer Prevention Strategies: Empowering Health Through Awareness and Action']
     },
     {
-        photo:'/speakers/nopporn.png',
+        photo: NoppornPhoto,
         name:'นพ.นพพร ส่งอำไพ',
         position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม รพ.หาดใหญ่',
         description:['Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
-        photo:'/speakers/hathaitip.png',
+        photo: HathaitipPhoto,
         name:'พญ.หทัยทิพย์ ธรรมวิริยะกุล',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
@@ -137,7 +155,7 @@ const speakers = [
         description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan']
     },
     {
-        photo:'/speakers/kanin.png',
+        photo: KaninPhoto,
         name:'นพ.คณิน ล่องเซ่ง',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community', 'Workshop: Syringe driver and Palliative devices']
@@ -149,7 +167,7 @@ const speakers = [
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
-        photo:'/speakers/wasin.png',
+        photo: WasinPhoto,
         name:'นพ.วศิน คัมภีระ',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
@@ -162,7 +180,7 @@ const speakers = [
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
     {
-        photo:'/speakers/nisachon.jpg',
+        photo: NisachonPhoto,
         name:'พญ.นิศาชล ทองคำ',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']

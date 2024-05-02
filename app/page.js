@@ -5,6 +5,10 @@ import MainContent from "@/src/MainContent"
 import Speaker from "@/src/Speaker"
 import Contact from "@/src/Contact"
 
+//Import Speaker's photo individually
+import ApisanPhoto from '/public/speakers/apisan.png'
+import SupatraPhoto from '/public/speakers/supatra.png'
+
 export default function Home() {
   return (
     <>
@@ -23,8 +27,8 @@ export default function Home() {
             </div>
             <div className="w-full xl:w-4/12 2xl:w-3/12 p-4">
               <div className="flex flex-wrap gap-2 sm:gap-4">
-              <Speaker photo='/speakers/apisan.png' name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
-              <Speaker photo='/speakers/supatra.png' name='พญ.สุพัตรา ศรีวณิชชากร' position='ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
+              <Speaker photo={ApisanPhoto} name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
+              <Speaker photo={SupatraPhoto} name='พญ.สุพัตรา ศรีวณิชชากร' position='ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
               </div>
             </div>
           </div>
