@@ -21,6 +21,7 @@ export default function Carousel() {
           (min-width: 768px) and (max-width: 1199px) 60vw,
           40vw
         `}
+        unoptimized
       />
     );
   }
