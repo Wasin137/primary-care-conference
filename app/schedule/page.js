@@ -2,7 +2,6 @@
 import React from 'react'
 import { useState } from 'react'
 import Schedule from '@/src/Schedule'
-import PaperPresent from '@/src/PaperPresent'
 
 const day1GrandHall = {
     date: "2024-06-06",

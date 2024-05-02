@@ -2,10 +2,8 @@ import Carousel from "@/src/Carousel"
 import CountdownTimer from "@/src/Timer"
 import ConferenceDate from "@/src/ConferenceDate"
 import MainContent from "@/src/MainContent"
-import Subscription from "@/src/Subscription"
 import Speaker from "@/src/Speaker"
 import Contact from "@/src/Contact"
-import PaperPresent from "@/src/PaperPresent"
 
 export default function Home() {
   return (
@@ -24,8 +22,9 @@ export default function Home() {
               <MainContent />
             </div>
             <div className="w-full xl:w-4/12 2xl:w-3/12 p-4">
-              <div className="xl:flex-row">
-              <Speaker photo='speakers/apisan.png' name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
+              <div className="flex flex-wrap gap-2 sm:gap-4">
+              <Speaker photo='/speakers/apisan.png' name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
+              <Speaker photo='/speakers/supatra.png' name='พญ.สุพัตรา ศรีวณิชชากร' position='ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
               </div>
             </div>
           </div>

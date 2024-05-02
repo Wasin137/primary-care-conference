@@ -1,4 +1,7 @@
-import React from 'react';
+import React from 'react'
+import Image from 'next/image'
+// import static image
+import BlankPhoto from '/public/speakers/blank-profile-picture-973460_1280.png'
 
 function ModalSpeaker({ isOpen, onClose, speaker }) {
   if (!isOpen) return null;
@@ -8,9 +11,9 @@ function ModalSpeaker({ isOpen, onClose, speaker }) {
       <div className="relative top-40 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
         <div className="mt-3 text-center">
             {speaker.photo ? (
-              <img className='rounded-full w-32 h-32 mx-auto' src={speaker.photo} alt='speaker' />
+              <Image className='rounded-full w-32 h-32 mx-auto' src={speaker.photo} alt='speaker' width={32} height={32} unoptimized/>
             ) : (
-              <img className='rounded-full w-32 h-32 mx-auto' src='speakers/blank-profile-picture-973460_1280.png' alt='speaker' />
+              <Image className='rounded-full w-32 h-32 mx-auto' src={BlankPhoto} alt='speaker' width={32} height={32} unoptimized/>
             )}
           <h3 className="text-lg font-medium text-gray-900 mt-2">{speaker.name}</h3>
           <p className="text-sm text-gray-500">{speaker.position}</p>

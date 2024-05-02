@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -9,7 +10,7 @@ export default function page() {
                     <div className='p-4 bg-white rounded-lg shadow-md'>
                         <p className='font-bold text-3xl mb-4'>เปิดรับลงทะเบียน</p>
                         <p className='text-black text-base font-bold'>ลงทะเบียนผ่าน Google form</p>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link'><span className='text-gray-500 text-xl font-bold hover:underline'>Click Here</span></a>
+                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link'}><span className='text-gray-500 text-xl font-bold hover:underline'>Click Here</span></Link>
                         <p className='text-black text-base font-bold mt-4'>มีปัญหาในการลงทะเบียนกรุณาติดต่อ</p>
                         <p className='text-gray-700 text-base mt-1'>074-273100 ต่อ 5510</p>
                         <p className='text-gray-700 text-base italic'>กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่</p>
@@ -19,7 +20,7 @@ export default function page() {
                     <div className='p-4 bg-white rounded-lg shadow-md'>
                         <p className='text-black font-bold text-base xl:text-xl 2xl:text-xl mb-4'>อัตราค่าลงทะเบียน</p>
                         <p className='text-black text-base mb-2'>ค่าลงทะเบียน <span className='text-xl font-bold'>1,500</span> บาท</p>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link'><span className='text-gray-500 text-xl font-bold hover:underline'>ลงทะเบียนผ่าน Google form Click Here</span></a>
+                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSc_UGXAOFJFHqT_2XyjHSuK9yXIuIqRrw2_Dq5uaT7kJt4Hhg/viewform?usp=sf_link'}><span className='text-gray-500 text-xl font-bold hover:underline'>ลงทะเบียนผ่าน Google form Click Here</span></Link>
                         <p className='text-black font-bold text-base xl:text-xl 2xl:text-xl mt-4'>โรงแรมสงขลาลากูน่า Laguna Grand Hotel and Spa Songkhla</p>
                         <p className='text-gray-400 text-base xl:text-lg 2xl:text-3xl mt-2'>Location (Google Maps)</p>
                         <div className="relative w-full overflow-hidden" style={{ paddingTop: '56.25%' }}>

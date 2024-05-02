@@ -1,4 +1,7 @@
 import React from 'react'
+import Image from 'next/image'
+// import static image
+import BlankPhoto from '/public/speakers/blank-profile-picture-973460_1280.png'
 
 export default function Speaker({index, photo, name, position, description}) {
     return (
@@ -7,9 +10,9 @@ export default function Speaker({index, photo, name, position, description}) {
           <p className='text-xl font-bold'>Speaker</p>
           <div className='flex flex-row mt-3 md:mt-5'>
             {photo ? (
-              <img className='rounded-full w-16 h-16' src={photo} alt='speaker' />
+              <Image className='rounded-full w-16 h-16' src={photo} alt='speaker' width={16} height={16} unoptimized/>
             ) : (
-              <img className='rounded-full w-16 h-16' src='speakers/blank-profile-picture-973460_1280.png' alt='speaker' />
+              <Image className='rounded-full w-16 h-16' src={BlankPhoto} alt='speaker' width={16} height={16} unoptimized/>
             )}
             <div className='flex flex-col mx-auto px-1'>
               <p className='text-base font-bold md:text-lg'>{name}</p>

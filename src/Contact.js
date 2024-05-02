@@ -1,7 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
+// Import Static logo
+import RcfptLogo from '/public/sponsors/rcfpt_logo.png'
+import FmacLogo from '/public/sponsors/fmac_logo.png'
+import HdyLogo from '/public/sponsors/hdy_logo.png'
+import PcaricLogo from '/public/sponsors/pcaric_logo.png'
+import SssLogo from '/public/sponsors/sss_logo.png'
+import SaafLogo from '/public/sponsors/saaf_logo.png'
+import BerlinLogo from '/public/sponsors/berlin_logo.png'
 
 export default function Contact() {
+  const sponsorImages = [
+    { src: RcfptLogo, alt: 'The Royal College of Family Physicians of Thailand' },
+    { src: FmacLogo, alt: 'Family Medicine Academic Center' },
+    { src: HdyLogo, alt: 'Hatyai Hospital' },
+    { src: PcaricLogo, alt: 'Primary Care Academic Research and Innovation Center' },
+    { src: SssLogo, alt: 'sss' },
+    { src: SaafLogo, alt: 'มูลนิธิศูนย์วิชาการสารเสพติด' },
+    { src: BerlinLogo, alt: 'Berlin' }
+  ]
+
   return (
     <div className='p-2 bg-white rounded-lg shadow-md'>
       <div className='grid grid-cols-1 xl:grid-cols-4'>
@@ -35,27 +53,15 @@ export default function Contact() {
         <div className='xl:col-span-2 py-2 px-4'>
         <p className='text-gray-800 text-lg font-bold text-start mb-2'>Support By</p>
           <div className='xl:grid grid-cols-2'>
-            <div className='xl:col-span-1'>
-              <img className='p-2 m-2' src='/sponsors/rcfpt_logo.png' alt='The Royal College of Family Physicians of Thailand'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/fmac_logo.png' alt='Family Medicine Academic Center'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/hdy_logo.png' alt='Hatyai Hospital'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/pcaric_logo.png' alt='Primary Care Academic Research and Innovation Center'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/sss_logo.png' alt='sss'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/saaf_logo.png' alt='มูลนิธิศูนย์วิชาการสารเสพติด'/>
-            </div>
-            <div className='xl:col-span-1'>
-            <img className='p-2 m-2' src='/sponsors/berlin_logo.png' alt='Berlin'/>
-            </div>
+            {sponsorImages.map((sponsor, index) => (
+              <div key={index} className='xl:col-span-1 p-2 m-2'>
+                <Image
+                  src={sponsor.src}
+                  alt={sponsor.alt}
+                  unoptimized
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
