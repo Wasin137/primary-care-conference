@@ -1,23 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 // Import Static logo
-import RcfptLogo from '/public/sponsors/rcfpt_logo.png'
-import FmacLogo from '/public/sponsors/fmac_logo.png'
-import HdyLogo from '/public/sponsors/hdy_logo.png'
-import PcaricLogo from '/public/sponsors/pcaric_logo.png'
-import SssLogo from '/public/sponsors/sss_logo.png'
-import SaafLogo from '/public/sponsors/saaf_logo.png'
 import BerlinLogo from '/public/sponsors/berlin_logo.png'
+import AZLogo from '/public/sponsors/az_logo.png'
+import MillimedLogo from '/public/sponsors/millimed_logo.jpg'
+import UdomLogo from '/public/sponsors/udom_logo.png'
 
 export default function Contact() {
   const sponsorImages = [
-    { src: RcfptLogo, alt: 'The Royal College of Family Physicians of Thailand' },
-    { src: FmacLogo, alt: 'Family Medicine Academic Center' },
-    { src: HdyLogo, alt: 'Hatyai Hospital' },
-    { src: PcaricLogo, alt: 'Primary Care Academic Research and Innovation Center' },
-    { src: SssLogo, alt: 'sss' },
-    { src: SaafLogo, alt: 'มูลนิธิศูนย์วิชาการสารเสพติด' },
-    { src: BerlinLogo, alt: 'Berlin' }
+    { src: BerlinLogo, alt: 'Berlin' },
+    { src: AZLogo, alt: 'AstraZaneca'},
+    { src: MillimedLogo, alt: 'Millimed BFS'},
+    { src: UdomLogo, alt:'Udom.'}
   ]
 
   return (
@@ -51,13 +45,14 @@ export default function Contact() {
           </div>
         </div>
         <div className='xl:col-span-2 py-2 px-4'>
-        <p className='text-gray-800 text-lg font-bold text-start mb-2'>Support By</p>
+        <p className='text-gray-800 text-lg font-bold text-start mb-2'>Sponsors</p>
           <div className='xl:grid grid-cols-2'>
             {sponsorImages.map((sponsor, index) => (
               <div key={index} className='xl:col-span-1 p-2 m-2'>
                 <Image
                   src={sponsor.src}
                   alt={sponsor.alt}
+                  style={{width:'75%'}}
                   unoptimized
                 />
               </div>

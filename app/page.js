@@ -4,6 +4,7 @@ import ConferenceDate from "@/src/ConferenceDate"
 import MainContent from "@/src/MainContent"
 import Speaker from "@/src/Speaker"
 import Contact from "@/src/Contact"
+import Sponsor from "@/src/Sponsor"
 
 //Import Speaker's photo individually
 import ApisanPhoto from '/public/speakers/apisan.png'
@@ -29,6 +30,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-2 sm:gap-4">
               <Speaker photo={ApisanPhoto} name='นพ.อภิสรรค์ บุญประดับ' position='ผู้อำนวยการ กองปฐมภูมิ' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
               <Speaker photo={SupatraPhoto} name='พญ.สุพัตรา ศรีวณิชชากร' position='ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย' description={['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']}/>
+              <Sponsor/>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ import ApisanPhoto from '/public/speakers/apisan.png'
 import SupatraPhoto from '/public/speakers/supatra.png'
 import VeerasakPhoto from '/public/speakers/veerasak.png'
 import KrisanaPhoto from '/public/speakers/krisana.png'
-import OrawanPhoto from '/public/speakers/orawan.png'
+import OrawanPhoto from '/public/speakers/orawan.jpg'
 import KraisornPhoto from '/public/speakers/kraisorn.png'
 import ThammasinPhoto from '/public/speakers/thammasin.png'
 import KritPhoto from '/public/speakers/krit.png'
@@ -21,6 +21,9 @@ import HathaitipPhoto from '/public/speakers/hathaitip.png'
 import KaninPhoto from '/public/speakers/kanin.png'
 import WasinPhoto from '/public/speakers/wasin.png'
 import NisachonPhoto from '/public/speakers/nisachon.jpg'
+import JustmePhoto from '/public/speakers/justme.jpg'
+import CharchristPhoto from '/public/speakers/charchrist.jpg'
+import AekaponPhoto from '/public/speakers/aekapon.jpg'
 
 const speakers = [
     {
@@ -36,13 +39,15 @@ const speakers = [
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
     },
     {
+        photo: JustmePhoto,
         name:'พญ.จัสมี โนะ',
         position:'นายแพทย์ชำนาญการพิเศษ รพ.ระแงะ',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'QI in Primary Care and Research']
     },
     {
+        photo: CharchristPhoto,
         name:'ชาคริต โภชะเรือง',
-        position:'ประธานสมัชชาสุขภาพจังหวัดสงขลา',
+        position:'ผู้ประสานงานเครือข่ายแผนสุขภาพจังหวัดสงขลา, ผู้จัดการมูลนิธิชุมชน สงขลา',
         description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
     },
     {
@@ -64,7 +69,7 @@ const speakers = [
         description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
     },
     {
-        photo:'',
+        photo:AekaponPhoto,
         name:'นพ.เอกพล พิศาล',
         position:'ผู้อำนวยการ รพ.บ้านตาขุน',
         description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']

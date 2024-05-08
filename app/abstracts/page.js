@@ -194,8 +194,8 @@ export default function AbstractsPage() {
                     </div>
                     <div className='p-4 bg-white rounded-lg shadow-md mt-5'>
                         <p className='font-bold text-3xl mb-4'>Contact</p>
-                        <p className='text-base'>If you have any questions regarding your submitted abstract or the abstract submission process, do not hesitate to reach out to: <span className='font-bold underline'>pcaric23@gmail.com</span></p>
-                        <p className='text-base'>If your inquiry is regarding a particular draft or submission, please include the abstract ID in your email.</p>
+                        <p className='text-base'>คำถามเพิ่มเติม หรือมีปัญหาเกี่ยวกับการส่งบทความ กรุณาติดต่อ: <span className='font-bold underline'>pcaric23@gmail.com</span></p>
+                        <p className='text-base'>กรุณาระบุชื่อบทความใน email ในกรณีที่ท่านต้องการติดต่อเรื่องขั้นตอนการส่งงาน</p>
                     </div>
                 </div>
             </div>

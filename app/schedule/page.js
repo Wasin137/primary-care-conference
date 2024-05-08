@@ -15,7 +15,7 @@ const day1GrandHall = {
         {
             time:'8.30-9.00',
             topic:'Opening Ceremony',
-            description:['พิธีเปิดโดย ผู้อำนวยการโรงพยาบาลหาดใหญ่']
+            description:['พิธีเปิด']
         },
         {
             time:'9.00-10.30',
@@ -27,8 +27,8 @@ const day1GrandHall = {
         },
         {
             time:'10.30-11.00',
-            topic:'รับประทานอาหารว่าง',
-            description:[]
+            topic:'Coffee break',
+            description:['BERLIN']
         },
         {
             time:'11.00-12.00',
@@ -38,7 +38,7 @@ const day1GrandHall = {
         {
             time:'12.00-13.00',
             topic:'Lunch symposium',
-            description:[]
+            description:['AstraZeneca']
         }
     ]
 }
@@ -54,7 +54,7 @@ const day1Room1 = {
         },
         {
             time:'14.30-15.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
@@ -76,7 +76,7 @@ const day1Room2 = {
         },
         {
             time:'14.30-15.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
@@ -98,7 +98,7 @@ const day1Room3 = {
         },
         {
             time:'14.30-15.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
@@ -117,6 +117,11 @@ const day2GrandHall = {
             time:'8.30-9.30',
             topic:'Kratom: Understanding the Facts and Implications',
             description:['ภก.อดิศักดิ์ เมฆตรง']
+        },
+        {
+            time:'12.00-13.00',
+            topic:'Lunch symposium',
+            description:['PROSP PHARMA อุดม เมดิคอล อิควิปเม้นท์']
         },
         {
             time:'14.30-15.30',
@@ -142,7 +147,7 @@ const day2Room1 = {
         },
         {
             time:'10.45-11.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
@@ -174,7 +179,7 @@ const day2Room2 = {
         },
         {
             time:'10.45-11.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
@@ -206,7 +211,7 @@ const day2Room3 = {
         },
         {
             time:'10.45-11.00',
-            topic:'รับประทานอาหารว่าง',
+            topic:'Coffee break',
             description:[]
         },
         {
