@@ -45,13 +45,13 @@ const day1GrandHall = {
 
 const day1Room1 = {
     date: "2024-06-06",
-    room:'Main Room 1',
-    schedule:[        
+    room:'Room 1',
+    schedule:[ 
         {
             time:'13.00-14.30',
-            topic:'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care',
-            description:['พว.ชาลิณี บุญช่วยรอด', 'คุณหทัยชนก เดชะ']
-        },
+            topic:'Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”',
+            description:['นพ.เอกพล พิศาล', 'พญ.ชนัดดา สมคง', 'พว.ชาลิณี บุญช่วยรอด']
+        },       
         {
             time:'14.30-15.00',
             topic:'Coffee break',
@@ -59,8 +59,8 @@ const day1Room1 = {
         },
         {
             time:'15.00-16.30',
-            topic:'Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”',
-            description:['นพ.เอกพล พิศาล', 'พญ.ชนัดดา สมคง', 'พว.ชาลิณี บุญช่วยรอด']
+            topic:'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care',
+            description:['นพ.เอกพล พิศาล', 'พว.ชาลิณี บุญช่วยรอด', 'คุณหทัยชนก เดชะ']
         }
     ]
 }
@@ -138,7 +138,7 @@ const day2GrandHall = {
 
 const day2Room1 = {
     date: "2024-06-07",
-    room:'Main Room 1',
+    room:'Room 1',
     schedule:[
         {
             time:'9.45-10.45',
@@ -175,7 +175,7 @@ const day2Room2 = {
         {
             time:'9.45-10.45',
             topic:'Discussion: Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
-            description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
+            description:['ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
         },
         {
             time:'10.45-11.00',
