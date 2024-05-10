@@ -19,7 +19,7 @@ const day1GrandHall = {
         },
         {
             time:'9.00-10.30',
-            topic:'Innovative Approaches in Primary Care: Global Persepctives and Local Solutions',
+            topic:'Innovative Approaches in Primary Care: Global Perspectives and Local Solutions',
             description:['นพ.อภิสรรค์ บุญประดับ',
                 'พญ.สุพัตรา ศรีวณิชชากร',
                 'พญ.จัสมี โนะ',

@@ -31,25 +31,25 @@ const speakers = [
         photo: ApisanPhoto,
         name:'นพ.อภิสรรค์ บุญประดับ',
         position:'ผู้อำนวยการ กองปฐมภูมิ',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
     },
     {
         photo: SupatraPhoto,
         name:'พญ.สุพัตรา ศรีวณิชชากร',
         position:'ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
     },
     {
         photo: JustmePhoto,
         name:'พญ.จัสมี โนะ',
         position:'นายแพทย์ชำนาญการพิเศษ รพ.ระแงะ',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'QI in Primary Care and Research']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'QI in Primary Care and Research']
     },
     {
         photo: CharchristPhoto,
         name:'ชาคริต โภชะเรือง',
         position:'ผู้ประสานงานเครือข่ายแผนสุขภาพจังหวัดสงขลา, ผู้จัดการมูลนิธิชุมชน สงขลา',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
     },
     {
         photo:VeerasakPhoto,
@@ -61,7 +61,7 @@ const speakers = [
         photo: KrisanaPhoto,
         name:'รศ.นพ.กฤษณะ สุวรรณภูมิ',
         position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
-        description:['QI in Primary Care and Research competition', 'Digital Health Revolution: AI Integration in Primary Care for Global Challenges']
+        description:['QI in Primary Care and Research competition']
     },
     {
         photo: OrawanPhoto,
@@ -152,7 +152,7 @@ const speakers = [
         photo: HathaitipPhoto,
         name:'พญ.หทัยทิพย์ ธรรมวิริยะกุล',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Innovative Approaches in Primary Care: Global Persepctives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
     },
     {
         photo:'',
