@@ -5,7 +5,7 @@ import Schedule from '@/src/Schedule'
 
 const day1GrandHall = {
     date: "2024-06-06",
-    room:'Grand Hall',
+    room:'Laguna Queen A',
     schedule:[
         {
             time:'8.00-8.30',
@@ -23,7 +23,8 @@ const day1GrandHall = {
             description:['นพ.อภิสรรค์ บุญประดับ',
                 'พญ.สุพัตรา ศรีวณิชชากร',
                 'พญ.จัสมี โนะ',
-                'คุณชาคริต โภชะเรือง']
+                'คุณชาคริต โภชะเรือง',
+                'พญ.หทัยทิพย์ ธรรมวิริยะกุล']
         },
         {
             time:'10.30-11.00',
@@ -45,7 +46,7 @@ const day1GrandHall = {
 
 const day1Room1 = {
     date: "2024-06-06",
-    room:'Room 1',
+    room:'Laguna Queen A',
     schedule:[ 
         {
             time:'13.00-14.30',
@@ -59,7 +60,7 @@ const day1Room1 = {
         },
         {
             time:'15.00-16.30',
-            topic:'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care',
+            topic:'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care',
             description:['นพ.เอกพล พิศาล', 'พว.ชาลิณี บุญช่วยรอด', 'คุณหทัยชนก เดชะ']
         }
     ]
@@ -67,7 +68,7 @@ const day1Room1 = {
 
 const day1Room2 = {
     date: "2024-06-06",
-    room:'Room 2',
+    room:'Azure',
     schedule:[
         {
             time:'13.00-14.30',
@@ -89,7 +90,7 @@ const day1Room2 = {
 
 const day1Room3 = {
     date: "2024-06-06",
-    room:'Room 3',
+    room:'CRIMSON',
     schedule:[
         {
             time:'13.00-14.30',
@@ -111,7 +112,7 @@ const day1Room3 = {
 
 const day2GrandHall = {
     date: "2024-06-07",
-    room:'Grand Hall',
+    room:'Laguna Queen A',
     schedule:[
         {
             time:'8.30-9.30',
@@ -138,7 +139,7 @@ const day2GrandHall = {
 
 const day2Room1 = {
     date: "2024-06-07",
-    room:'Room 1',
+    room:'Laguna Queen A',
     schedule:[
         {
             time:'9.45-10.45',
@@ -170,12 +171,12 @@ const day2Room1 = {
 
 const day2Room2 = {
     date: "2024-06-07",
-    room:'Room 2',
+    room:'Azure',
     schedule:[
         {
             time:'9.45-10.45',
             topic:'Discussion: Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
-            description:['ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
+            description:['ผศ.ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
         },
         {
             time:'10.45-11.00',
@@ -202,7 +203,7 @@ const day2Room2 = {
 
 const day2Room3 = {
     date: "2024-06-07",
-    room:'Room 3',
+    room:'CRIMSON',
     schedule:[
         {
             time:'9.45-10.45',

@@ -16,7 +16,7 @@ import KritPhoto from '/public/speakers/krit.png'
 import NarongwitPhoto from '/public/speakers/narongwit.png'
 import KiratiPhoto from '/public/speakers/kirati.png'
 import PhungeunPhoto from '/public/speakers/phungeun.png'
-import NoppornPhoto from '/public/speakers/nopporn.png'
+import NoppornPhoto from '/public/speakers/nopporn.jpg'
 import HathaitipPhoto from '/public/speakers/hathaitip.png'
 import KaninPhoto from '/public/speakers/kanin.png'
 import WasinPhoto from '/public/speakers/wasin.png'
@@ -24,6 +24,7 @@ import NisachonPhoto from '/public/speakers/nisachon.jpg'
 import JustmePhoto from '/public/speakers/justme.jpg'
 import CharchristPhoto from '/public/speakers/charchrist.jpg'
 import AekaponPhoto from '/public/speakers/aekapon.jpg'
+import PokinPhoto from '/public/speakers/pokin.jpg'
 
 const speakers = [
     {
@@ -99,9 +100,9 @@ const speakers = [
         description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
     },
     {
-        photo:'',
+        photo:PokinPhoto,
         name:'นพ.โภคิน ศักรินทร์กุล',
-        position:'หัวหน้ากลุ่มภารกิจด้านการบริการปฐมภูมิ รพ.ลำพูน',
+        position:'นายแพทย์เชี่ยวชาญ รพ.ลำพูน',
         description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
     },
     {
