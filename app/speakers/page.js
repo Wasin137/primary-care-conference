@@ -14,7 +14,7 @@ import KraisornPhoto from '/public/speakers/kraisorn.png'
 import ThammasinPhoto from '/public/speakers/thammasin.png'
 import KritPhoto from '/public/speakers/krit.png'
 import NarongwitPhoto from '/public/speakers/narongwit.png'
-import KiratiPhoto from '/public/speakers/kirati.png'
+import KiratiPhoto from '/public/speakers/kirati.jpg'
 import PhungeunPhoto from '/public/speakers/phungeun.png'
 import NoppornPhoto from '/public/speakers/nopporn.jpg'
 import HathaitipPhoto from '/public/speakers/hathaitip.png'
@@ -25,6 +25,8 @@ import JustmePhoto from '/public/speakers/justme.jpg'
 import CharchristPhoto from '/public/speakers/charchrist.jpg'
 import AekaponPhoto from '/public/speakers/aekapon.jpg'
 import PokinPhoto from '/public/speakers/pokin.jpg'
+import ThawiratPhoto from '/public/speakers/thawirat.png'
+import NijaraPhoto from '/public/speakers/nijara.jpg'
 
 const speakers = [
     {
@@ -49,7 +51,8 @@ const speakers = [
         photo: CharchristPhoto,
         name:'ชาคริต โภชะเรือง',
         position:'ผู้ประสานงานเครือข่ายแผนสุขภาพจังหวัดสงขลา, ผู้จัดการมูลนิธิชุมชน สงขลา',
-        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions'],
+        degree:['M.Sc. Health System Management']
     },
     {
         photo:VeerasakPhoto,
@@ -117,6 +120,13 @@ const speakers = [
         position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
         degree:["B.S. in Physics(1's Class honor)", 'M.S. in Material Science and Engineering', 'M.S. in Biomedical Engineering', 'Ph.D. in Biomedical Engineering']
+    },
+    {
+        photo: ThawiratPhoto,
+        name:'นพ.ทวิรัศม์ จุ่งรุ่งเรือง',
+        position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
+        description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
+        degree:['B.S. in Medical Doctor']
     },
     {
         photo: NarongwitPhoto,
@@ -192,7 +202,7 @@ const speakers = [
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
     },
     {
-        photo:'',
+        photo: NijaraPhoto,
         name:'พญ.นิศจรา กุณาฑลต์',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
@@ -231,6 +241,12 @@ const speakers = [
         photo:'',
         name:'คุณมณีวรรณ ทองอ่อน',
         position:'หัวหน้ากลุ่มงานโภชนศาสตร์ รพ.หาดใหญ่',
+        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+    },
+    {
+        photo:'',
+        name:'คุณชญานภัส จิตตรัตน์',
+        position:'นักจิตวิทยาคลินิก ชำนาญการ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
 ]

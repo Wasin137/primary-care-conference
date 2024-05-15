@@ -176,7 +176,7 @@ const day2Room2 = {
         {
             time:'9.45-10.45',
             topic:'Discussion: Digital Health Revolution: AI Integration in Primary Care for Global Challenges',
-            description:['ผศ.ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ']
+            description:['ผศ.ดร.กฤต จารุพานิช','นพ.วศิน คัมภีระ', 'นพ.ทวิรัศม์ จุ่งรุ่งเรือง']
         },
         {
             time:'10.45-11.00',
@@ -196,7 +196,7 @@ const day2Room2 = {
         {
             time:'13.00-14.00',
             topic:'Discussion: The Hatyai Model: A Paradigm for Wellness Centers',
-            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์', 'คุณมณีวรรณ ทองอ่อน']
+            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์', 'คุณมณีวรรณ ทองอ่อน', 'ชญานภัส จิตตรัตน์']
         }
     ]
 }
