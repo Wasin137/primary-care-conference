@@ -32,7 +32,7 @@ const speakers = [
     {
         photo: ApisanPhoto,
         name:'นพ.อภิสรรค์ บุญประดับ',
-        position:'ผู้อำนวยการ กองปฐมภูมิ',
+        position:'ผู้อำนวยการกองสนับสนุนระบบสุขภาพปฐมภูมิ กระทรวงสาธารณสุข',
         description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
     },
     {
