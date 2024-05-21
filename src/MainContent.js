@@ -16,6 +16,8 @@ export default function MainContent() {
             </div>
             <div className='mt-5'>
               <Link href={'/registration'} className='text-gray-500 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>คลิกลงทะเบียนร่วมงาน</Link>
+              <br/>
+              <Link href={'https://hatyaihospital.go.th/primary-care-conference/docs/Project.pdf'} className='text-gray-400 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>เอกสารโครงการประชุมและปฏิทิน</Link>
             </div>
             <p className='text-gray-800 text-xl font-bold xl:text-2xl 2xl:text-3xl mt-5'>Calling for Abstract</p>
             <div className='mt-5 flex justify-center'>
