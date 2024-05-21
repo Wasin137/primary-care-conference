@@ -62,8 +62,8 @@ const speakers = [
     },
     {
         photo: KrisanaPhoto,
-        name:'รศ.นพ.กฤษณะ สุวรรณภูมิ',
-        position:'อาจารย์คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
+        name:'ผศ.นพ.กฤษณะ สุวรรณภูมิ',
+        position:'คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['QI in Primary Care and Research competition']
     },
     {
