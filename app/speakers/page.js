@@ -54,20 +54,22 @@ const speakers = [
         photo: JustmePhoto,
         name:'พญ.จัสมี โนะ',
         position:'นายแพทย์ชำนาญการพิเศษ รพ.ระแงะ',
-        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'QI in Primary Care and Research']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'QI in Primary Care and Research'],
+        degree:['Doctor of Medicine degree at Prince of Songkhla University, Songkhla', 'Diploma of Thai Board of Family Medicine, The Royal College of Family Physicians of Thailand']
     },
     {
         photo: CharchristPhoto,
         name:'ชาคริต โภชะเรือง',
         position:'เลขานุการคณะกรรมการเขตสุขภาพเพื่อประชาชน(กขป.) เขต 12 และผู้จัดการมูลนิธิชุมชนสงขลา',
         description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions'],
-        degree:['M.Sc. Health System Management']
+        degree:['ปริญญาโท การจัดการระบบสุขภาพ สถาบันการจัดการระบบสุขภาพ มหาวิทยาลัยสงขลานครินทร์']
     },
     {
         photo:VeerasakPhoto,
         name:'ศ.นพ.วีรศักดิ์ เมืองไพศาล',
         position:'หัวหน้าสาขาวิชาเวชศาสตร์ผู้สูงอายุ คณะแพทยศาสตร์ ศิริราชพยาบาล มหาวิทยาลัยมหิดล',
-        description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
+        description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach'],
+        degree:['แพทยศาสตร์บัณฑิตเกียตินิยมอันดับ 1 (พบ.) คณะแพทยศาสตร์ศิริราชพยาบาล', 'วุฒิบัตรแพทย์ (วว.) เฉพาะทางด้านอายุรศาสตร์ คณะแพทยศาสตร์ศิริราชพยาบาล', 'วุฒิบัตรแพทย์เฉพาะทางต่อยอด (วว.) ด้านประสาทวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล', 'แพทย์เฉพาะทางด้านระบบประสาทผู้สูงอายุ มหาวิทยาลัยออกฟอร์ด ประเทศอังกฤษ', 'วุฒิบัตรด้านเวชศาสตร์ผู้สูงอายุ ราชวิทยาลัยอายุรแพทย์ ลอนดอน ประเทศอังกฤษ', 'ปริญญาโทระบาดวิทยา มหาวิทยาลัยเคมบริดจ์ ประเทศอังกฤษ']
     },
     {
         photo: ApinanPhoto,
@@ -79,31 +81,36 @@ const speakers = [
         photo: KrisanaPhoto,
         name:'ผศ.นพ.กฤษณะ สุวรรณภูมิ',
         position:'คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
-        description:['QI in Primary Care and Research competition']
+        description:['QI in Primary Care and Research competition'],
+        degree:['Doctor of Medicine (M.D.) Prince of Songkhla University' ,'Diploma Thai Board of Family Medicine Prince of Songkhla University', 'Fellowship Certificate in Academic Family Medicine University of Toronto, Canada', 'Master of Science in Medical Education Cardiff University, United Kingdom', 'Doctor of Education (Ed.D.)(Education Administration) Hatyai University']
     },
     {
         photo: OrawanPhoto,
         name:'พญ.อรวรรณ ตะเวทิพงศ์',
         position:'ผู้อำนวยการ รพ.เขาย้อย, รองผู้อำนวยการกองปฐมภูมิ กระทรวงสาธารณสุข',
-        description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
+        description:['Empowering Primary Care: The Bedrock of Resilient Health Systems'],
+        degree:['แพทยศาสตร์บัณฑิต คณะแพทยศาสตรศิริราชพยาบาล มหาวิทยาลัยมหิดล' ,'Master of Health Sciences (Family Medicine) University of Toronto, Canada', 'อนุมัติบัตรแพทย์เฉพาะทางสาขาเวชปฏิบัติครอบครัว', 'Master of Sciences (Health System and Disease Control) Institute of Tropical Medicine, Antwerp, Belgium']
     },
     {
         photo:AekaponPhoto,
         name:'นพ.เอกพล พิศาล',
         position:'ผู้อำนวยการ รพ.บ้านตาขุน',
-        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
+        degree:['ปริญญาตรีแพทยศาสตร์บัณฑิต มหาวิทยาลัยสงขลานครินทร์' ,'ปริญญาเวชศาสตร์ป้องกัน แขนงสุขภาพจิตชุมชน แพทยสภา']
     },
     {
         photo: ChanadaPhoto,
         name:'พญ.ชนัดดา สมคง',
         position:'นายแพทย์ชำนาญการ รพ.กาญจนดิษฐ์',
-        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”'],
+        degree:['แพทยศาสตร์บัณฑิต คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร', 'วุฒิบัตรเวชศาสตร์ครอบครัว สถาบันหลักโรงพยาบาลสุราษฎร์ธานี']
     },
     {
         photo:ChariniPhoto,
         name:'พว.ชาลิณี บุญช่วยรอด',
         position:'พยาบาลวิชาชีพ รพ.บ้านตาขุน',
-        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
+        degree:['ประกาศนียบัตรพยาบาลศาสตร์ วิทยาลัยพยาบาลบรมราชชนนี สุราษฎร์ธานี', 'การพยาบาลเฉพาะทางสาขาการพยาบาลผู้จัดการรายกรณีโรคเรื้อรัง (เบาหวานและความดันโลหิตสูง)']
     },
     {
         photo:'',
@@ -121,69 +128,93 @@ const speakers = [
         photo:PokinPhoto,
         name:'นพ.โภคิน ศักรินทร์กุล',
         position:'นายแพทย์เชี่ยวชาญ รพ.ลำพูน',
-        description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions']
+        description:['Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions'],
+        degree:['แพทยศาสตรบัณฑิต (เกียรตินิยมอันดับสอง) มหาวิทยาลัยเชียงใหม่',
+            'ประกาศนียบัตรวิชาอาชีวอนามัยและความปลอดภัย มหาวิทยาลัยสุโขทัยธรรมาธิราช',
+            'ประกาศนียบัตรบัณฑิตวิทยาศาสตร์การแพทย์คลินิก (เวชศาสตร์ครอบครัว) มหาวิทยาลัยเชียงใหม่',
+            'ประกาศนียบัตรแพทย์อาชีวเวชศาตร์ กรมการแพทย์ กระทรวงสาธารณสุข',
+            'ประกาศนียบัตรการอบรมหลักสูตรการฝังเข็ม กระทรวงสาธารณสุข',
+            'วุฒิบัตรแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรม สาขาเวชศาสตร์ครอบครัว แพทยสภา',
+            'มนุษยนิเวศศาสตร์มหาบัณฑิต มหาวิทยาลัยสุโขทัยธรรมาธิราช',
+            'สาธารณสุขศาสตร์บัณฑิต (อาชีวอนามัยและความปลอดภัย) มหาวิทยาลัยสุโขทัยธรรมาธิราช',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงอาชีวเวชศาสตร์ แพทยสภา',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงระบาดวิทยา แพทยสภา',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงสุขภาพจิตชุมชน แพทยสภา',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงสาธารณสุขศาสตร์ แพทยสภา',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงเวชศาสตร์ป้องกันคลินิก แพทยสภา',
+            'หนังสืออนุมัติแสดงความรู้ความชํานาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ป้องกัน แขนงเวชศาสตร์วิถีชีวิต แพทยสภา',
+            'ประกาศนียบัตรวิชาชีพเวชกรรมด้านเวชศาสตร์ครอบครัวการเสพติด แพทยสภา'
+        ]
     },
     {
         photo: ThammasinPhoto,
         name:'ผศ.ดร.นพ.ธรรมสินธ์ อิงวิยะ',
         position:'ผู้ช่วยคณบดีฝ่ายวิเคราะห์ข้อมูล และนวัตกรรมดิจิตอล คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
-        description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights']
+        description:['Unveiling the Health Impacts of Global Warming: Evidence and Insights'],
+        degree:["Doctor of Medicine degree, Faculty of Medicine, Prince of Songkhla University", 'Master of Health Science in Enviromental Health Science Department, Johns Hopkins Bloomberg School of Public Health', 'Ph.D. in Environmental Health and Engineering (PhD Track in Exposure Sciences and Environmental Epidemiology), Johns Hopkins Bloomberg School of Public Health']
     },
     {
         photo: KritPhoto,
         name:'ดร.กฤต จารุพานิช',
         position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
-        degree:["B.S. in Physics(1's Class honor)", 'M.S. in Material Science and Engineering', 'M.S. in Biomedical Engineering', 'Ph.D. in Biomedical Engineering']
+        degree:["B.S. in Physics(1's Class honor) Prince of Songkla University, Songkhla", 'M.S. in Material Science and Engineering Mahidol University, Bangkok', 'M.S. in Biomedical Engineering University of California, Irvine, USA', 'Ph.D. in Biomedical Engineering University of California, Irvine, USA']
     },
     {
         photo: ThawiratPhoto,
         name:'นพ.ทวิรัศม์ จุ่งรุ่งเรือง',
         position:'ชีวเวชศาสตร์และวิศวกรรมชีวการแพทย์ คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์',
         description:['Digital Health Revolution: AI Integration in Primary Care for Global Challenges'],
-        degree:['B.S. in Medical Doctor']
+        degree:['แพทยศาสตร์บัณฑิต (พ.บ.) คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล']
     },
     {
         photo: NarongwitPhoto,
         name:'รศ.นพ.ณรงค์วิทย์ นาขวัญ',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
-        description:['Asthma Management in Primary Care: Guidelines and Best Practices']
+        description:['Asthma Management in Primary Care: Guidelines and Best Practices'],
+        degree:['แพทยศาสตร์บัณฑิต เกียรตินิยมอันดับ 1 คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล', 'อายุรแพทย์โรคระบบทางเดินหายใจและภาวะวิกฤตการหายใจ มหาวิทยาลัยสงขลานครินทร์']
     },
     {
         photo: KiratiPhoto,
         name:'ผศ.พญ.กีรติ อัครปฏิมา',
         position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม โรงพยาบาลหาดใหญ่',
-        description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
+        description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies'],
+        degree:['แพทยศาสตร์บัณฑิต เกียรตินิยมอันดับ 1 คณะแพทยศาสตร์ศิริราชพยาบาล', 'วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาอายุรศาสตร์', 'วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม อนุสาขาอายุรศาสตร์ โรคระบบทางเดินอาหารและตับ']
     },
     {
         photo:'',
         name:'พญ.ธัญลักษณ์ วั่นเลี่ยง',
         position:'หัวหน้ากลุ่มงานจิตเวชและยาเสพติด โรงพยาบาลหาดใหญ่',
-        description:['Parenting in Digital World']
+        description:['Parenting in Digital World'],
+        degree:['ปริญญาตรี แพทยศาสตร์บัณฑิต คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์' ,'วุฒิบัตรผู้เชี่ยวชาญสาขาจิตเวชศาสตร์เด็กและวัยรุ่น จุฬาลงกรณ์มหาวิทยาลัย']
     },
     {
         photo: PhungeunPhoto,
         name:'ดร.พญ.ภูเงิน คงทอง',
         position:'ผู้อำนวยการศูนย์มะเร็ง รพ.หาดใหญ่-นาหม่อม',
-        description:['Cancer Prevention Strategies: Empowering Health Through Awareness and Action']
+        description:['Cancer Prevention Strategies: Empowering Health Through Awareness and Action'],
+        degree: ['Doctor of Medicine Prince of Songkhla University', 'Internal Medicine (Diploma) Siriraj Hospital, Mahidol University, Bangkok', 'Medical Oncology (Clinical fellow) Rajavithi Hospital, Bangkok', 'MSc (Merit) Cancer Sciences and precision oncology University of Glasgow, UK', 'PhD Breast Cancer Research University of Glasgow, UK']
     },
     {
         photo: NoppornPhoto,
         name:'นพ.นพพร ส่งอำไพ',
         position:'นายแพทย์ชำนาญการ กลุ่มงานอายุรกรรม รพ.หาดใหญ่',
-        description:['Essential Adult Vaccines: Protecting Health Across the Lifespan']
+        description:['Essential Adult Vaccines: Protecting Health Across the Lifespan'],
+        degree:['แพทยศาสตร์บัณฑิต คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์' ,'วุฒิบัตรผู้เชี่ยวชาญสาขาอายุรศาสตร์ โรงพยาบาลหาดใหญ่' ,'วุฒิบัตรอนุสาขาอายุรศาสตร์โรคติดเชื้อ คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย']
     },
     {
         photo: HathaitipPhoto,
         name:'พญ.หทัยทิพย์ ธรรมวิริยะกุล',
         position:'นายแพทย์ชำนาญการพิเศษ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World'],
+        degree:['Doctor of Medicine degree, Chiangmai  University, Chiangmai', 'Diploma of the Thai Board of Family Medicine ,the Royal College of Family Physicians of Thailand', 'Master in Epidemiology from London School of Hygiene and Tropical Medicine, London, United Kingdom', 'Certificate of Academic Fellowship in Family Medicine, DFCM University of Toronto', 'Clinical Research Certificate, DFCM University of Toronto']
     },
     {
         photo: SorawatPhoto,
         name:'ดร.นพ.ศรวัส แสงแก้ว',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan']
+        description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan'],
+        degree:['Doctor of Medicine (First Class Honours), Prince of Songkhla University', 'MSc in Epidemiology (Merit), School of Public Health, Imperial College London, United Kingdom', 'PhD in Clinical Medicine Research, Department of Infectious Disease, Faculty of Medicine, Imperial College London, United Kingdom']
     },
     {
         photo: KaninPhoto,
@@ -195,7 +226,8 @@ const speakers = [
         photo:'',
         name:'พญ.นวลจันทร์ หวังศุภดิลก',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Workshop: Syringe driver and Palliative devices']
+        description:['Workshop: Syringe driver and Palliative devices'],
+        degree: ['แพทยศาสตร์บัณฑิต คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์' ,'วุฒิบัตรเวชศาสตร์ครอบครัว ภาควิชาเวชศาสตร์ชุมชนและครอบครัว', 'ประกาศนียบัตรแพทย์ฝังเข็ม กรมการแพทย์แผนไทยการแพทย์ทางเลือก กระทรวงสาธารณสุข', 'ประกาศนียบัตรแพทย์เวชศาสตร์ครอบครัวบริบาลผู้ป่วยประคับประคอง (Palliative care in family medicine)']
     },
     {
         photo: WasinPhoto,
@@ -220,13 +252,15 @@ const speakers = [
         photo: NijaraPhoto,
         name:'พญ.นิศจรา กุณาฑลต์',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+        description:['The Hatyai Model: A Paradigm for Wellness Centers'],
+        degree:['แพทยศาสตร์บัณฑิต โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล', 'วุฒิบัตรฯ สาขาเวชศาสตร์ครอบครัว']
     },
     {
         photo:'',
         name:'ภก.อดิศักดิ์ เมฆตรง',
         position:'เภสัชกรชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
-        description:['Kratom: Understanding the Facts and Implications']
+        description:['Kratom: Understanding the Facts and Implications'],
+        degree:['เภสัชศาสตร์บัณฑิต มหาวิทยาลัยสงขลานครินทร์' , 'ประกาศนียบัตรวิชาชีพเภสัชกรรมระบาดวิทยาในงานคุ้มครองผู้บริโภค วิทยาลัยคุ้มครองผู้บริโภคด้านยาและสุขภาพแห่งประเทศไทย สภาเภสัชกรรม' ,'ประกาศนียบัตรวิชาชีพเภสชักรรมการจัดการความเสี่ยงในงานคุ้มครองผู้บริโภค วิทยาลัยคุ้มครองผู้บริโภคด้านยาและสุขภาพแห่งประเทศไทย สภาเภสัชกรรม']
     },
     {
         photo:'',
@@ -244,25 +278,30 @@ const speakers = [
         photo: AmornratPhoto,
         name:'พว.อมรรัตน์ ลิ่มเฮง',
         position:'หัวหน้ากลุ่มงานการพยาบาลชุมชน โรงพยาบาลหาดใหญ่',
-        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+        description:['The Hatyai Model: A Paradigm for Wellness Centers'],
+        degree:['วิทยาศาสตร์บัณฑิต (สาขาการพยาบาลและการผดุงครรภ์)', 'วิทยาศาสตร์มหาบัณฑิต (พยาบาลศาสตร์) มหาวิทยาลัยมหิดล', 'พยาบาลผู้ปฏิบัติการขั้นสูง สาขาการพยาบาลชุมชน','ประกาศนียบัตรการพยาบาลเฉพาะทาง สาขาเวชปฏิบัติทั่วไป (การรักษาโรคเบื้องต้น) มหาวิทยาลัยสงขลานครินทร์']
+        
     },
     {
         photo: JutananPhoto,
         name:'คุณจุฑานันท์ พรหมอินทร์',
         position:'นักกายภาพบำบัดปฏิบัติการ รพ.หาดใหญ่',
-        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+        description:['The Hatyai Model: A Paradigm for Wellness Centers'],
+        degree:['วิทยาศาสตร์บัณฑิต (กายภาพบำบัด) มหาวิทยาลัยสงขลานครินทร์']
     },
     {
         photo: ManeewanPhoto,
         name:'คุณมณีวรรณ ทองอ่อน',
         position:'หัวหน้ากลุ่มงานโภชนศาสตร์ รพ.หาดใหญ่',
-        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+        description:['The Hatyai Model: A Paradigm for Wellness Centers'],
+        degree:['ปริญญาตรี คหกรรมศาสตร์ศึกษา สาขาอาหารและโภชนาการ สถาบันเทคโนโลยีราชมงคลจักรพงษ์ภูวนารถ กทม.', 'หลักสูตรเฉพาะทางโภชนบำบัด คณะเเพทย์ศาสตร์รามาธิบดี']
     },
     {
         photo: ChayanapatPhoto,
         name:'คุณชญานภัส จิตตรัตน์',
         position:'นักจิตวิทยาคลินิก ชำนาญการ รพ.หาดใหญ่',
-        description:['The Hatyai Model: A Paradigm for Wellness Centers']
+        description:['The Hatyai Model: A Paradigm for Wellness Centers'],
+        degree:['วิทยาศาสตร์บัณฑิต (จิตวิทยาคลินิกและชุมชน) มหาวิทยาลัยรามคำแหง' ,'ศิลปศาสตร์มหาบัณฑิต (จิตวิทยาการปรึกษา) มหาวิทยาลัยธรรมศาสตร์']
     },
 ]
 
