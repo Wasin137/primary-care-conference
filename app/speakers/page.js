@@ -13,9 +13,9 @@ import OrawanPhoto from '/public/speakers/orawan.jpg'
 import KraisornPhoto from '/public/speakers/kraisorn.png'
 import ThammasinPhoto from '/public/speakers/thammasin.png'
 import KritPhoto from '/public/speakers/krit.png'
-import NarongwitPhoto from '/public/speakers/narongwit.png'
+import NarongwitPhoto from '/public/speakers/narongwit.jpeg'
 import KiratiPhoto from '/public/speakers/kirati.jpg'
-import PhungeunPhoto from '/public/speakers/phungeun.png'
+import PhungeunPhoto from '/public/speakers/phungeun.jpeg'
 import NoppornPhoto from '/public/speakers/nopporn.jpg'
 import HathaitipPhoto from '/public/speakers/hathaitip.png'
 import KaninPhoto from '/public/speakers/kanin.png'
@@ -27,6 +27,13 @@ import AekaponPhoto from '/public/speakers/aekapon.jpg'
 import PokinPhoto from '/public/speakers/pokin.jpg'
 import ThawiratPhoto from '/public/speakers/thawirat.png'
 import NijaraPhoto from '/public/speakers/nijara.jpg'
+import SongkiatPhoto from '/public/speakers/songkiat.png'
+import JutananPhoto from '/public/speakers/jutanan.jpg'
+import ManeewanPhoto from '/public/speakers/maneewan.jpg'
+import ChanadaPhoto from '/public/speakers/chanada.jpeg'
+import ChayanapatPhoto from '/public/speakers/chayanapat.jpeg'
+import AmornratPhoto from '/public/speakers/amornrat.jpeg'
+import SorawatPhoto from '/public/speakers/sorawat.jpg'
 
 const speakers = [
     {
@@ -79,7 +86,7 @@ const speakers = [
         description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
     },
     {
-        photo:'',
+        photo: ChanadaPhoto,
         name:'พญ.ชนัดดา สมคง',
         position:'นายแพทย์ชำนาญการ รพ.กาญจนดิษฐ์',
         description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
@@ -165,7 +172,7 @@ const speakers = [
         description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions', 'Unveiling the Health Impacts of Global Warming: Evidence and Insights', 'Parenting in Digital World']
     },
     {
-        photo:'',
+        photo: SorawatPhoto,
         name:'ดร.นพ.ศรวัส แสงแก้ว',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['QI in Primary Care and Research competition', 'Essential Adult Vaccines: Protecting Health Across the Lifespan']
@@ -190,7 +197,7 @@ const speakers = [
         degree:['Thai board of Family Medicine', 'B.S. in Medical Doctor']
     },
     {
-        photo:'',
+        photo: SongkiatPhoto,
         name:'นพ.ทรงเกียรติ กาญจนแก้ว',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
@@ -226,25 +233,25 @@ const speakers = [
         description:['Workshop: Syringe driver and Palliative devices']
     },
     {
-        photo:'',
+        photo: AmornratPhoto,
         name:'พว.อมรรัตน์ ลิ่มเฮง',
         position:'หัวหน้ากลุ่มงานการพยาบาลชุมชน โรงพยาบาลหาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {
-        photo:'',
+        photo: JutananPhoto,
         name:'คุณจุฑานันท์ พรหมอินทร์',
         position:'นักกายภาพบำบัดปฏิบัติการ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {
-        photo:'',
+        photo: ManeewanPhoto,
         name:'คุณมณีวรรณ ทองอ่อน',
         position:'หัวหน้ากลุ่มงานโภชนศาสตร์ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']
     },
     {
-        photo:'',
+        photo: ChayanapatPhoto,
         name:'คุณชญานภัส จิตตรัตน์',
         position:'นักจิตวิทยาคลินิก ชำนาญการ รพ.หาดใหญ่',
         description:['The Hatyai Model: A Paradigm for Wellness Centers']

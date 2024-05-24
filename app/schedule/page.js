@@ -37,7 +37,7 @@ const day1GrandHall = {
             description:['พญ.อรวรรณ ตะเวทิพงศ์']
         },
         {
-            time:'12.00-13.00',
+            time:'12.00-13.15',
             topic:'Lunch symposium',
             description:['AstraZeneca']
         }
@@ -49,12 +49,12 @@ const day1Room1 = {
     room:'Laguna Queen A',
     schedule:[ 
         {
-            time:'13.00-14.30',
-            topic:'Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”',
+            time:'13.15-14.45',
+            topic:'การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”',
             description:['นพ.เอกพล พิศาล', 'พญ.ชนัดดา สมคง', 'พว.ชาลิณี บุญช่วยรอด']
         },       
         {
-            time:'14.30-15.00',
+            time:'14.45-15.00',
             topic:'Coffee break',
             description:[]
         },
@@ -71,12 +71,12 @@ const day1Room2 = {
     room:'Azure',
     schedule:[
         {
-            time:'13.00-14.30',
+            time:'13.15-14.45',
             topic:'Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community',
             description:['นพ.คณิน ล่องเซ่ง']
         },
         {
-            time:'14.30-15.00',
+            time:'14.45-15.00',
             topic:'Coffee break',
             description:[]
         },
@@ -93,19 +93,19 @@ const day1Room3 = {
     room:'CRIMSON',
     schedule:[
         {
-            time:'13.00-14.30',
-            topic:'Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions',
-            description:['นพ.ไกรสร โตทับเที่ยง', 'นพ.โภคิน ศักรินทร์กุล']
+            time:'13.15-14.45',
+            topic:'Discussion: Parenting in Digital World',
+            description:['พญ.ธัญลักษณ์ วันเลี่ยง', 'พญ.หทัยทิพย์ ธรรมวิริยะกุล']
         },
         {
-            time:'14.30-15.00',
+            time:'14.45-15.00',
             topic:'Coffee break',
             description:[]
         },
         {
             time:'15.00-16.30',
             topic:'Discussion: Quality Improvement in Primary Care and Research competition',
-            description:['รศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
+            description:['ผศ.นพ.ดร.อภินันท์ อร่ามรัตน์', 'ผศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
         }
     ]
 }
@@ -123,6 +123,11 @@ const day2GrandHall = {
             time:'12.00-13.00',
             topic:'Lunch symposium',
             description:['PROSP PHARMA อุดม เมดิคอล อิควิปเม้นท์']
+        },
+        {
+            time:'14.00-14.30',
+            topic:'รับประทานอาหารว่าง',
+            description:[]
         },
         {
             time:'14.30-15.30',
@@ -185,8 +190,8 @@ const day2Room2 = {
         },
         {
             time:'11.00-12.00',
-            topic:'Discussion: Parenting in Digital World',
-            description:['พญ.ธัญลักษณ์ วันเลี่ยง', 'พญ.หทัยทิพย์ ธรรมวิริยะกุล']
+            topic:'Discussion: From Cells to Communities : A Holistic Approach to Global Prison Health and Primary Care Solutions',
+            description:['นพ.ไกรสร โตทับเที่ยง', 'นพ.โภคิน ศักรินทร์กุล']
         },
         {
             time:'12.00-13.00',
@@ -196,7 +201,7 @@ const day2Room2 = {
         {
             time:'13.00-14.00',
             topic:'Discussion: The Hatyai Model: A Paradigm for Wellness Centers',
-            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์', 'คุณมณีวรรณ ทองอ่อน', 'ชญานภัส จิตตรัตน์']
+            description:['พญ.นิศจรา กุณาฑลต์', 'พว.อมรรัตน์ ลิ่มเฮง', 'คุณจุฑานันท์ พรหมอินทร์', 'คุณมณีวรรณ ทองอ่อน', 'คุณชญานภัส จิตตรัตน์']
         }
     ]
 }
