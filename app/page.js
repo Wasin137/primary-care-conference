@@ -16,6 +16,7 @@ import OrawanPhoto from '/public/speakers/orawan.jpg'
 import AekaponPhoto from '/public/speakers/aekapon.jpg'
 import KraisornPhoto from '/public/speakers/kraisorn.png'
 import PokinPhoto from '/public/speakers/pokin.jpg'
+import ApinanPhoto from '/public/speakers/apinan.png'
 
 
 export default function Home() {
@@ -35,19 +36,25 @@ export default function Home() {
     {
       photo: CharchristPhoto,
       name:'ชาคริต โภชะเรือง',
-      position:'ผู้ประสานงานเครือข่ายแผนสุขภาพจังหวัดสงขลา, ผู้จัดการมูลนิธิชุมชน สงขลา',
+      position:'เลขานุการคณะกรรมการเขตสุขภาพเพื่อประชาชน(กขป.) เขต 12 และผู้จัดการมูลนิธิชุมชนสงขลา',
       description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
     },
     {
       photo:VeerasakPhoto,
       name:'ศ.นพ.วีรศักดิ์ เมืองไพศาล',
-      position:'อาจารย์คณะแพทยศาสตร์ศิริราชพยาบาล',
+      position:'หัวหน้าสาขาวิชาเวชศาสตร์ผู้สูงอายุ คณะแพทยศาสตร์ ศิริราชพยาบาล มหาวิทยาลัยมหิดล',
       description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
+    },
+    {
+      photo: ApinanPhoto,
+      name:'ผศ.ดร.นพ.อภินันท์ อร่ามรัตน์',
+      position:'ประธานมูลนิธิศูนย์วิชาการสารเสพติดและหัวหน้าโครงการศูนย์วิชาการเวชศาสตร์ครอบครัว',
+      description: ['QI in Primary Care and Research competition']
     },
     {
       photo: OrawanPhoto,
       name:'พญ.อรวรรณ ตะเวทิพงศ์',
-      position:'ผู้อำนวยการ รพ.เขาย้อย',
+      position:'ผู้อำนวยการ รพ.เขาย้อย, รองผู้อำนวยการกองปฐมภูมิ กระทรวงสาธารณสุข',
       description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
     },
     {

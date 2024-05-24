@@ -105,7 +105,7 @@ const day1Room3 = {
         {
             time:'15.00-16.30',
             topic:'Discussion: Quality Improvement in Primary Care and Research competition',
-            description:['ผศ.นพ.ดร.อภินันท์ อร่ามรัตน์', 'ผศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
+            description:['ผศ.ดร.นพ.อภินันท์ อร่ามรัตน์', 'ผศ.นพ.กฤษณะ สุวรรณภูมิ', 'ดร.นพ.ศรวัส แสงแก้ว', 'พญ.จัสมี โนะ']
         }
     ]
 }
@@ -132,7 +132,7 @@ const day2GrandHall = {
         {
             time:'14.30-15.30',
             topic:'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach',
-            description:['ศ.นพ.วีรศักดิ์ เมืองไพศาล', 'พญ.นิศาชล ทองคำ']
+            description:['ศ.นพ.วีรศักดิ์ เมืองไพศาล']
         },
         {
             time:'15.30-16.00',
@@ -169,7 +169,7 @@ const day2Room1 = {
         {
             time:'13.00-14.00',
             topic:'Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management',
-            description:['ศ.นพ.วีรศักดิ์ เมืองไพศาล', 'พญ.นิศาชล ทองคำ']
+            description:['ศ.นพ.วีรศักดิ์ เมืองไพศาล']
         }
     ]
 }

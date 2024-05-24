@@ -20,7 +20,7 @@ import NoppornPhoto from '/public/speakers/nopporn.jpg'
 import HathaitipPhoto from '/public/speakers/hathaitip.png'
 import KaninPhoto from '/public/speakers/kanin.png'
 import WasinPhoto from '/public/speakers/wasin.png'
-import NisachonPhoto from '/public/speakers/nisachon.jpg'
+// import NisachonPhoto from '/public/speakers/nisachon.jpg'
 import JustmePhoto from '/public/speakers/justme.jpg'
 import CharchristPhoto from '/public/speakers/charchrist.jpg'
 import AekaponPhoto from '/public/speakers/aekapon.jpg'
@@ -34,6 +34,8 @@ import ChanadaPhoto from '/public/speakers/chanada.jpeg'
 import ChayanapatPhoto from '/public/speakers/chayanapat.jpeg'
 import AmornratPhoto from '/public/speakers/amornrat.jpeg'
 import SorawatPhoto from '/public/speakers/sorawat.jpg'
+import ApinanPhoto from '/public/speakers/apinan.png'
+import ChariniPhoto from '/public/speakers/charini.jpg'
 
 const speakers = [
     {
@@ -57,15 +59,21 @@ const speakers = [
     {
         photo: CharchristPhoto,
         name:'ชาคริต โภชะเรือง',
-        position:'ผู้ประสานงานเครือข่ายแผนสุขภาพจังหวัดสงขลา, ผู้จัดการมูลนิธิชุมชน สงขลา',
+        position:'เลขานุการคณะกรรมการเขตสุขภาพเพื่อประชาชน(กขป.) เขต 12 และผู้จัดการมูลนิธิชุมชนสงขลา',
         description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions'],
         degree:['M.Sc. Health System Management']
     },
     {
         photo:VeerasakPhoto,
         name:'ศ.นพ.วีรศักดิ์ เมืองไพศาล',
-        position:'อาจารย์คณะแพทยศาสตร์ศิริราชพยาบาล',
+        position:'หัวหน้าสาขาวิชาเวชศาสตร์ผู้สูงอายุ คณะแพทยศาสตร์ ศิริราชพยาบาล มหาวิทยาลัยมหิดล',
         description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
+    },
+    {
+        photo: ApinanPhoto,
+        name:'ผศ.ดร.นพ.อภินันท์ อร่ามรัตน์',
+        position:'ประธานมูลนิธิศูนย์วิชาการสารเสพติดและหัวหน้าโครงการศูนย์วิชาการเวชศาสตร์ครอบครัว',
+        description:['QI in Primary Care and Research competition']
     },
     {
         photo: KrisanaPhoto,
@@ -76,32 +84,32 @@ const speakers = [
     {
         photo: OrawanPhoto,
         name:'พญ.อรวรรณ ตะเวทิพงศ์',
-        position:'ผู้อำนวยการ รพ.เขาย้อย',
+        position:'ผู้อำนวยการ รพ.เขาย้อย, รองผู้อำนวยการกองปฐมภูมิ กระทรวงสาธารณสุข',
         description:['Empowering Primary Care: The Bedrock of Resilient Health Systems']
     },
     {
         photo:AekaponPhoto,
         name:'นพ.เอกพล พิศาล',
         position:'ผู้อำนวยการ รพ.บ้านตาขุน',
-        description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
     },
     {
         photo: ChanadaPhoto,
         name:'พญ.ชนัดดา สมคง',
         position:'นายแพทย์ชำนาญการ รพ.กาญจนดิษฐ์',
-        description:['Discussion: การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจากสุราษฏร์ธานี”']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”']
     },
     {
-        photo:'',
+        photo:ChariniPhoto,
         name:'พว.ชาลิณี บุญช่วยรอด',
         position:'พยาบาลวิชาชีพ รพ.บ้านตาขุน',
-        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
     },
     {
         photo:'',
         name:'คุณหทัยชนก เดชะ',
         position:'ผู้อำนวยการ รพ.สต.เขาพัง',
-        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD preventionservice in primary care']
+        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
     },
     {
         photo: KraisornPhoto,
@@ -202,12 +210,12 @@ const speakers = [
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
     },
-    {
-        photo: NisachonPhoto,
-        name:'พญ.นิศาชล ทองคำ',
-        position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
-    },
+    // {
+    //     photo: NisachonPhoto,
+    //     name:'พญ.นิศาชล ทองคำ',
+    //     position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
+    //     description:['Addressing Geriatric Syndromes in Primary Care: Strategies for Comprehensive Management', 'Enhancing Care with Comprehensive Geriatric Assessment: A Multidisciplinary Approach']
+    // },
     {
         photo: NijaraPhoto,
         name:'พญ.นิศจรา กุณาฑลต์',
