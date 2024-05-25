@@ -14,9 +14,9 @@ import CharchristPhoto from '/public/speakers/charchrist.jpg'
 import VeerasakPhoto from '/public/speakers/veerasak.png'
 import OrawanPhoto from '/public/speakers/orawan.jpg'
 import AekaponPhoto from '/public/speakers/aekapon.jpg'
-import KraisornPhoto from '/public/speakers/kraisorn.png'
+import KraisornPhoto from '/public/speakers/kraisorn.jpg'
 import PokinPhoto from '/public/speakers/pokin.jpg'
-import ApinanPhoto from '/public/speakers/apinan.png'
+import ApinanPhoto from '/public/speakers/apinan.webp'
 
 
 export default function Home() {

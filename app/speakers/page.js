@@ -10,7 +10,7 @@ import SupatraPhoto from '/public/speakers/supatra.png'
 import VeerasakPhoto from '/public/speakers/veerasak.png'
 import KrisanaPhoto from '/public/speakers/krisana.png'
 import OrawanPhoto from '/public/speakers/orawan.jpg'
-import KraisornPhoto from '/public/speakers/kraisorn.png'
+import KraisornPhoto from '/public/speakers/kraisorn.jpg'
 import ThammasinPhoto from '/public/speakers/thammasin.png'
 import KritPhoto from '/public/speakers/krit.png'
 import NarongwitPhoto from '/public/speakers/narongwit.jpeg'
@@ -18,7 +18,7 @@ import KiratiPhoto from '/public/speakers/kirati.jpg'
 import PhungeunPhoto from '/public/speakers/phungeun.jpeg'
 import NoppornPhoto from '/public/speakers/nopporn.jpg'
 import HathaitipPhoto from '/public/speakers/hathaitip.png'
-import KaninPhoto from '/public/speakers/kanin.png'
+import KaninPhoto from '/public/speakers/kanin.jpg'
 import WasinPhoto from '/public/speakers/wasin.png'
 // import NisachonPhoto from '/public/speakers/nisachon.jpg'
 import JustmePhoto from '/public/speakers/justme.jpg'
@@ -34,21 +34,27 @@ import ChanadaPhoto from '/public/speakers/chanada.jpeg'
 import ChayanapatPhoto from '/public/speakers/chayanapat.jpeg'
 import AmornratPhoto from '/public/speakers/amornrat.jpeg'
 import SorawatPhoto from '/public/speakers/sorawat.jpg'
-import ApinanPhoto from '/public/speakers/apinan.png'
+import ApinanPhoto from '/public/speakers/apinan.webp'
 import ChariniPhoto from '/public/speakers/charini.jpg'
+import AdisakPhoto from '/public/speakers/adisak.jpg'
+import PauaunPhoto from '/public/speakers/pauaun.jpg'
+import SudjaiPhoto from '/public/speakers/sudjai.jpg'
+import NuanjanPhoto from '/public/speakers/nuanjan.png'
 
 const speakers = [
     {
         photo: ApisanPhoto,
         name:'นพ.อภิสรรค์ บุญประดับ',
         position:'ผู้อำนวยการกองสนับสนุนระบบสุขภาพปฐมภูมิ กระทรวงสาธารณสุข',
-        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions'],
+        degree: ['แพทยศาสตร์บัณฑิต วิทยาลัยแพทยศาสตร์กรุงเทพมหานครและวชิรพยาบาล' ,'อนุมัติบัตรเวชศาสตร์ป้องกัน แขนงสุขภาพจิตชุมชน']
     },
     {
         photo: SupatraPhoto,
         name:'พญ.สุพัตรา ศรีวณิชชากร',
         position:'ประธานราชวิทยาลัยแพทย์เวชศาสตร์ครอบครัวประเทศไทย',
-        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions']
+        description:['Innovative Approaches in Primary Care: Global Perspectives and Local Solutions'],
+        degree : ['แพทยศาสตร์บัณฑิต ศิริราชพยาบาล มหาวิทยาลัยมหิดล' ,'หนังสืออนุมัติเป็นผู้มีความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาเวชกรรมป้องกัน แพทยสภา', 'Master of Public Health (Health Development) Institute of Tropical Medicine, Antwerp, Belgium', 'วุฒิบัตรผู้มีความรู้ความชำนาญสาขาเวชศาสตร์ป้องกัน (ระบาดวิทยา) แพทยสภา', 'หนังสืออนุมัติเป็นผู้มีความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรมสาขาเวชศาสตร์ครอบครัว แพทยสภา']
     },
     {
         photo: JustmePhoto,
@@ -95,7 +101,7 @@ const speakers = [
         photo:AekaponPhoto,
         name:'นพ.เอกพล พิศาล',
         position:'ผู้อำนวยการ รพ.บ้านตาขุน',
-        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอําเภอ: จากแนวคิดสู่การเปลี่ยนแปลงบริการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
         degree:['ปริญญาตรีแพทยศาสตร์บัณฑิต มหาวิทยาลัยสงขลานครินทร์' ,'ปริญญาเวชศาสตร์ป้องกัน แขนงสุขภาพจิตชุมชน แพทยสภา']
     },
     {
@@ -109,14 +115,14 @@ const speakers = [
         photo:ChariniPhoto,
         name:'พว.ชาลิณี บุญช่วยรอด',
         position:'พยาบาลวิชาชีพ รพ.บ้านตาขุน',
-        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
+        description:['การดำเนินงานคลินิกเบาหวานระยะสงบ “บทเรียนจาก จ.สุราษฏร์ธานี”', 'การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอําเภอ: จากแนวคิดสู่การเปลี่ยนแปลงบริการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care'],
         degree:['ประกาศนียบัตรพยาบาลศาสตร์ วิทยาลัยพยาบาลบรมราชชนนี สุราษฎร์ธานี', 'การพยาบาลเฉพาะทางสาขาการพยาบาลผู้จัดการรายกรณีโรคเรื้อรัง (เบาหวานและความดันโลหิตสูง)']
     },
     {
         photo:'',
         name:'คุณหทัยชนก เดชะ',
         position:'ผู้อำนวยการ รพ.สต.เขาพัง',
-        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอำเภอ: จากแนวคิดสู่การเปลี่ยนแปลงและการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
+        description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอําเภอ: จากแนวคิดสู่การเปลี่ยนแปลงบริการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
     },
     {
         photo: KraisornPhoto,
@@ -220,10 +226,11 @@ const speakers = [
         photo: KaninPhoto,
         name:'นพ.คณิน ล่องเซ่ง',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community', 'Workshop: Syringe driver and Palliative devices']
+        description:['Smooth Transitions: Enhancing Palliative Care Continuity from Hospital to Home and Community', 'Workshop: Syringe driver and Palliative devices'],
+        degree: ['แพทยศาสตร์บัณฑิต (เกียรตินิยมอันดับสอง) คณะแพทยศศาสตร์ มหาวิทยาลัยสงขลานครินทร์', 'วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาเวชศาสตร์ครอบครัว แพทยสภา']
     },
     {
-        photo:'',
+        photo:NuanjanPhoto,
         name:'พญ.นวลจันทร์ หวังศุภดิลก',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
         description:['Workshop: Syringe driver and Palliative devices'],
@@ -240,7 +247,8 @@ const speakers = [
         photo: SongkiatPhoto,
         name:'นพ.ทรงเกียรติ กาญจนแก้ว',
         position:'นายแพทย์ชำนาญการ กลุ่มงานเวชกรรมสังคม รพ.หาดใหญ่',
-        description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies']
+        description:['Constipation Management in Primary Care: A Comprehensive Approach and Case-Based Strategies'],
+        degree : ['แพทยศาสตร์บัณฑิต มหาวิทยาลัยสงขลานครินทร์' ,'วุฒิบัตรเวชศาสตร์ครอบครัว โรงพยาบาลหาดใหญ่']
     },
     // {
     //     photo: NisachonPhoto,
@@ -256,23 +264,25 @@ const speakers = [
         degree:['แพทยศาสตร์บัณฑิต โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล', 'วุฒิบัตรฯ สาขาเวชศาสตร์ครอบครัว']
     },
     {
-        photo:'',
+        photo: AdisakPhoto,
         name:'ภก.อดิศักดิ์ เมฆตรง',
         position:'เภสัชกรชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
         description:['Kratom: Understanding the Facts and Implications'],
         degree:['เภสัชศาสตร์บัณฑิต มหาวิทยาลัยสงขลานครินทร์' , 'ประกาศนียบัตรวิชาชีพเภสัชกรรมระบาดวิทยาในงานคุ้มครองผู้บริโภค วิทยาลัยคุ้มครองผู้บริโภคด้านยาและสุขภาพแห่งประเทศไทย สภาเภสัชกรรม' ,'ประกาศนียบัตรวิชาชีพเภสชักรรมการจัดการความเสี่ยงในงานคุ้มครองผู้บริโภค วิทยาลัยคุ้มครองผู้บริโภคด้านยาและสุขภาพแห่งประเทศไทย สภาเภสัชกรรม']
     },
     {
-        photo:'',
+        photo: PauaunPhoto,
         name:'พว.ภาเอื้ออันน์ สิรินทรโสภณ',
         position:'พยาบาลวิชาชีพชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
-        description:['Workshop: Syringe driver and Palliative devices']
+        description:['Workshop: Syringe driver and Palliative devices'],
+        degree: ['ประกาศนียบัตรการพยาบาลและการผดุงครรภ์(ระดับต้น) วิทยาลัยพยาบาลและผดุงครรภ์ ยะลา', 'พยาบาลศาสตรบัณฑิต มหาวิทยาลัยสงขลานครินทร์', 'การอบรบการดูแลผู้ป่วยประคับประคอง สำหรับพยาบาล']
     },
     {
-        photo:'',
+        photo:SudjaiPhoto,
         name:'พว.สุดใจ เรืองสุข',
         position:'พยาบาลวิชาชีพชำนาญการ กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่',
-        description:['Workshop: Syringe driver and Palliative devices']
+        description:['Workshop: Syringe driver and Palliative devices'],
+        degree : ['ประกาศนียบัตรพยาบาลศาตร์(ระดับต้น) วิทยาลัยพยาบาลบรมราชชนนีบำราศนราดร', 'พยาบาลศาสตร์บัณฑิต วิทยาลัยพยาบาลราชชนนี ตรัง สมทบ มหาวิทยาลัยสงขลานครินทร์' ,'การอบรบการดูแลผู้ป่วยประคับประคอง สำหรับพยาบาล']
     },
     {
         photo: AmornratPhoto,
