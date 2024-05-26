@@ -2,8 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 // import static image
-import MainPoster from '/public/posters/main_poster.png'
+import MainPoster from '/public/posters/main_poster.jpg'
 import AbstractPoster from '/public/posters/abstract_poster.jpg'
+import Schedule1 from '/public/posters/schedule1.jpg'
+import Schedule2 from '/public/posters/schedule2.jpg'
 
 export default function MainContent() {
   return (
@@ -19,6 +21,10 @@ export default function MainContent() {
             </div>
             <div className='mt-5 flex justify-center'>
               <Image className='border border-black' src={MainPoster} alt='Poster' style={{ width: '75%' }} unoptimized/>
+            </div>
+            <div className='mt-5 flex flex-row gap-1 justify-center'>
+              <Image className='border border-black' src={Schedule1} alt='Schedule1' style={{ width: '45%' }} unoptimized/>
+              <Image className='border border-black' src={Schedule2} alt='Schedule2' style={{ width: '45%' }} unoptimized/>
             </div>
             <p className='text-gray-800 text-xl font-bold xl:text-2xl 2xl:text-3xl mt-5'>Calling for Abstract</p>
             <div className='mt-5 flex justify-center'>
