@@ -5,7 +5,7 @@ import Link from 'next/link'
 import MainPoster from '/public/posters/main_poster.jpg'
 import AbstractPoster from '/public/posters/abstract_poster.jpg'
 import Schedule1 from '/public/posters/schedule1.jpg'
-import Schedule2 from '/public/posters/schedule2.jpg'
+import Schedule2 from '/public/posters/schedule2.png'
 
 export default function MainContent() {
   return (
