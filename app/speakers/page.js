@@ -40,6 +40,8 @@ import AdisakPhoto from '/public/speakers/adisak.jpg'
 import PauaunPhoto from '/public/speakers/pauaun.jpg'
 import SudjaiPhoto from '/public/speakers/sudjai.jpg'
 import NuanjanPhoto from '/public/speakers/nuanjan.png'
+import TanyalakPhoto from '/public/speakers/tanyalak.jpg'
+import HathaichanokPhoto from '/public/speakers/hathaichanok.jpg'
 
 const speakers = [
     {
@@ -119,7 +121,7 @@ const speakers = [
         degree:['ประกาศนียบัตรพยาบาลศาสตร์ วิทยาลัยพยาบาลบรมราชชนนี สุราษฎร์ธานี', 'การพยาบาลเฉพาะทางสาขาการพยาบาลผู้จัดการรายกรณีโรคเรื้อรัง (เบาหวานและความดันโลหิตสูง)']
     },
     {
-        photo:'',
+        photo: HathaichanokPhoto,
         name:'คุณหทัยชนก เดชะ',
         position:'ผู้อำนวยการ รพ.สต.เขาพัง',
         description:['การขับเคลื่อนระบบการจัดการโรคเรื้อรังระดับอําเภอ: จากแนวคิดสู่การเปลี่ยนแปลงบริการส่งเสริมป้องกันโรคเรื้อรังในระดับปฐมภูมิ NCD prevention service in primary care']
@@ -188,7 +190,7 @@ const speakers = [
         degree:['แพทยศาสตร์บัณฑิต เกียรตินิยมอันดับ 1 คณะแพทยศาสตร์ศิริราชพยาบาล', 'วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาอายุรศาสตร์', 'วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม อนุสาขาอายุรศาสตร์ โรคระบบทางเดินอาหารและตับ']
     },
     {
-        photo:'',
+        photo: TanyalakPhoto,
         name:'พญ.ธัญลักษณ์ วั่นเลี่ยง',
         position:'หัวหน้ากลุ่มงานจิตเวชและยาเสพติด โรงพยาบาลหาดใหญ่',
         description:['Parenting in Digital World'],
