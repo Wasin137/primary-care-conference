@@ -31,6 +31,9 @@ export default function page() {
                             <li>
                                 <Link href={'https://hatyaihospital.go.th/primary-care-conference/docs/dph.pdf'}><span className='text-gray-500 text-xl font-bold hover:underline'>หนังสือเชิญสสจ./สสอ.</span></Link>
                             </li>
+                            <li>
+                                <Link href={'https://drive.google.com/drive/u/0/folders/1f0EtMGDgYLgavl1uZ2Xo-t1qFhW7JmkD?sort=13&direction=a'}><span className='text-gray-500 text-xl font-bold hover:underline'>เอกสารประกอบหัวข้อวิชาการ(Google Drive)</span></Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

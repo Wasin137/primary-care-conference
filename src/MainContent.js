@@ -14,10 +14,12 @@ export default function MainContent() {
             <p className='text-black-1000 text-3xl xl:text-4xl 2xl:text-6xl mt-5'>&quot;Health Horizons: Bridging Global Health with Local Solutions in Primary Care&quot;</p>
             <p className='text-gray-800 text-2xl xl:text-3xl 2xl:text-4xl mt-2'>งานประชุมวิชาการประจำปี 2567 กลุ่มงานเวชกรรมสังคม โรงพยาบาลหาดใหญ่</p>
             <div className='mt-5'>
-              <Link href={'/registration'} className='text-gray-500 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>คลิกลงทะเบียนร่วมงาน</Link>
-              <p className='text-black font-bold text-lg xl:text-xl 2xl:text-2xl'>พร้อมรับคะแนน <span className='border border-gray-600 rounded-lg border-spacing-1'>CME</span> <span className='border border-gray-600 rounded-lg border-spacing-1'>CPE</span> <span className='border border-gray-600 rounded-lg border-spacing-1'>CNE</span></p>
-              <br/>
-              <Link href={'/registration'} className='text-gray-500 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>เอกสารโครงการประชุมและหนังสือเชิญ</Link>
+              <p className='text-gray-800 text-xl font-bold xl:text-2xl 2xl:text-3xl mt-5'>Download เอกสารประกอบการประชุม</p>
+              <Link href={'https://drive.google.com/drive/u/0/folders/1f0EtMGDgYLgavl1uZ2Xo-t1qFhW7JmkD?sort=13&direction=a'} className='text-gray-500 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>เอกสารประกอบหัวข้อวิชาการ(Google Drive)</Link>
+            </div>
+            <div className='mt-5'>
+              <p className='text-gray-800 text-xl font-bold xl:text-2xl 2xl:text-3xl mt-5'>แบบประเมินงานประชุม</p>
+              <Link href={'https://docs.google.com/forms/d/e/1FAIpQLScphjmaBqCk-_-02lIJMT2QKEkZ9zrcDlamScRUoN2b-z8afg/viewform'} className='text-gray-500 text-lg font-bold xl:text-xl 2xl:text-2xl hover:underline'>ทำแบบประเมินลุ้นรางวัล!!</Link>
             </div>
             <div className='mt-5 flex justify-center'>
               <Image className='border border-black' src={MainPoster} alt='Poster' style={{ width: '75%' }} unoptimized/>
