@@ -19,8 +19,8 @@ export default function NavBar() {
             <Link href="/" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
             <Link href="/schedule" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Schedule</Link>
             <Link href="/speakers" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Speakers</Link>
-            <Link href='/abstracts' className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Abstracts</Link>
-            <Link href="/registration" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Registration</Link>
+            {/* <Link href='/abstracts' className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Abstracts</Link>
+            <Link href="/registration" className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">Registration</Link> */}
           </div>
         </div>
       </div>
@@ -53,8 +53,8 @@ export default function NavBar() {
           <Link href="/" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
           <Link href="/schedule" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Schedule</Link>
           <Link href="/speakers" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Speakers</Link>
-          <Link href="/abstracts" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Abstracts</Link>
-          <Link href="/registration" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Registration</Link>
+          {/* <Link href="/abstracts" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Abstracts</Link>
+          <Link href="/registration" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Registration</Link> */}
         </div>
       </div>
     </div>
