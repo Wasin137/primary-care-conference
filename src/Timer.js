@@ -51,7 +51,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
       <div className="text-5xl 2xl:text-6xl text-center text-white p-4 bg-gray-700 bg-opacity-30 rounded-lg">
-        {timerComponents.length ? timerComponents : <span>"Thank you for being with us at 'Health Horizons.' We hope you found it as inspiring and informative as we did!"</span>}
+        {timerComponents.length ? timerComponents : <span>&quot;Thank you for being with us at &quot;Health Horizons.&quot; We hope you found it as inspiring and informative as we did!&quot;</span>}
       </div>
   );
 };
