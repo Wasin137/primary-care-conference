@@ -1,11 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-// import static image
-import MainPoster from '/public/posters/main_poster.jpg'
-import AbstractPoster from '/public/posters/abstract_poster.jpg'
-import Schedule1 from '/public/posters/schedule1.jpg'
-import Schedule2 from '/public/posters/schedule2.png'
 
 export default function MainContent() {
   return (
@@ -20,9 +14,10 @@ export default function MainContent() {
             </div>
             <div className='mt-10'>
               <p className='text-gray-800 font-bold text-2xl xl:text-3xl 2xl:text-4xl text-center'>ขอบคุณผู้ให้ความสนใจเข้าร่วมงานประชุมประจำปีพ.ศ. 2567 ทุกท่าน</p>
-              <div className='flex justify-center m-4 gap-4'>
-                <Link href='https://www.youtube.com/embed/ZdQDNT-y5rk' className='py-2 px-8 rounded-md text-xl md:text-2xl text-white bg-gray-600 text-center hover:bg-gray-800'>วีดีโอประมวลภาพงานประชุม</Link>
-                <Link href='https://drive.google.com/drive/folders/1bw1VhRL_pSmAyKgFxTaiddSGpwWUzCyD' className='py-2 px-8 rounded-md text-xl md:text-2xl text-white bg-gray-600 text-center hover:bg-gray-800'>ภาพถ่ายงานประชุม (Google Drive)</Link>
+              <div className='flex flex-col md:flex-row justify-center m-4 gap-2 md:gap-4'>
+                <Link href='https://www.youtube.com/embed/ZdQDNT-y5rk' className='p-2 md:px-8 rounded-md text-sm md:text-2xl text-white bg-gray-600 text-center hover:bg-gray-800'>วีดีโอประมวลภาพงานประชุม</Link>
+                <Link href='https://drive.google.com/drive/folders/1bw1VhRL_pSmAyKgFxTaiddSGpwWUzCyD' className='p-2 md:px-8 rounded-md text-sm md:text-2xl text-white bg-gray-600 text-center hover:bg-gray-800'>ภาพถ่ายงานประชุม</Link>
+                <Link href='https://drive.google.com/drive/u/0/folders/1f0EtMGDgYLgavl1uZ2Xo-t1qFhW7JmkD' className='p-2 md:px-8 rounded-md text-sm md:text-2xl text-white bg-gray-600 text-center hover:bg-gray-800'>เอกสารหัวข้อวิชาการงานประชุม</Link>
               </div>
               <div style={{ position: 'relative', width: '100%', paddingTop: '56.25%' }} className='flex justify-center'>
                 <iframe
